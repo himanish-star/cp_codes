@@ -80,7 +80,7 @@ int main() {
         }
         color.clear();
         for(int i=0;i<n;i++) {
-            edges[i].clear();
+            edges[i].clear();cd
         }
     }
     return 0;
