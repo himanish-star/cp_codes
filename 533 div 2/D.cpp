@@ -2,103 +2,94 @@
 
 using namespace std;
 
-typedef long long ll;
+#define pii pair<int,int>
+#define mp make_pair
+#define f first
+#define s second
+
+#define ll long long
 
 int n,m,p;
 
-ll noCastles[10]={0};
-
-int speed[10];
-
-ll totalUsed=0;
+queue<pii> nextUp;
 
 char grid[1001][1001];
-int vis[1001][1001];
 
-void travel(int p,int movesLeft,int x,int y) {
-    if(x>n || y>m || x<1 || y<1)
-        return;
-
-    if(vis[x][y])
-        return;
-
-    if(grid[x][y]=='#')
-        return;
-
-    if(grid[x][y]!='.')
-        return;
-
-    if(!movesLeft)
-        return;
-
-    vis[x][y]=1;
-    totalUsed--;
-    // cout<<x<<','<<y<<":->"<<totalUsed<<endl;
-    grid[x][y]=(char)(p+'0');
-    // cout<<(char)(p+'0')<<" ";
-    travel(p,movesLeft-1,x+1,y);
-    travel(p,movesLeft-1,x-1,y);
-    travel(p,movesLeft-1,x,y+1);
-    travel(p,movesLeft-1,x,y-1);
-    return;
-}
+ll speed[10];
 
 int main() {
   cin>>n>>m>>p;
 
-  for(int i=1;i<=p;i++)
-    cin>>speed[i];
+  for(int pid=1;pid<=p;pid++)
+    cin>>speed[pid];
 
   for(int i=1;i<=n;i++) {
     for(int j=1;j<=m;j++) {
       cin>>grid[i][j];
-      if(grid[i][j]=='.')
-        totalUsed++;
+      // cout<<grid[i][j]<<" ";
     }
+    // cout<<endl;
   }
 
-
-  int turn=0;
-  int check=10;
-  while(totalUsed) {
-    // printf("%d turn\n", ++turn);
-    memset(vis,0,sizeof(vis));
-    for(int pp=1;pp<=p;pp++)
+  for(int pid=1;pid<=p;pid++) {
     for(int i=1;i<=n;i++) {
       for(int j=1;j<=m;j++) {
-        if(!vis[i][j] && grid[i][j]!='.' && grid[i][j]!='#') {
-          int pid=grid[i][j]-48;
-        //   cout<<pid<<endl;
-          if(pp!=pid)
-            continue;
-          travel(pid,speed[pid],i+1,j);
-          travel(pid,speed[pid],i-1,j);
-          travel(pid,speed[pid],i,j+1);
-          travel(pid,speed[pid],i,j-1);
+        if(pid==grid[i][j]-48) {
+          nextUp.push(mp(i,j));
         }
       }
     }
-
-    // for(int i=1;i<=n;i++) {
-    //   for(int j=1;j<=m;j++) {
-    //     printf("%c ", grid[i][j]);
-    //   }
-    //   cout<<endl;
-    // }
   }
 
-  for(int i=1;i<=n;i++) {
-    for(int j=1;j<=m;j++) {
-        if(grid[i][j]!='.' && grid[i][j]!='#') {
-          int pid=grid[i][j]-48;
-          noCastles[pid]++;
-        }
+  while(nextUp.size()) {
+    pii curr=nextUp.front();
+    int pid=grid[curr.f][curr.s]-48;
+    // printf("turn of player %d\n", pid);
+    nextUp.pop();
+
+    queue<pair<int,pii> > bfs;
+    bfs.push(mp(speed[pid],mp(curr.f+1,curr.s)));
+    bfs.push(mp(speed[pid],mp(curr.f-1,curr.s)));
+    bfs.push(mp(speed[pid],mp(curr.f,curr.s+1)));
+    bfs.push(mp(speed[pid],mp(curr.f,curr.s-1)));
+    while(bfs.size()) {
+      pair<int,pii> intraCurr=bfs.front();
+      bfs.pop();
+      // printf("speedLeft: %d, x: %d, y: %d\n", intraCurr.f,intraCurr.s.f,intraCurr.s.s);
+      if(intraCurr.s.f>n || intraCurr.s.s>m || intraCurr.s.f<1 || intraCurr.s.s<1) {
+        continue;
+      }
+      if(grid[intraCurr.s.f][intraCurr.s.s]=='#' || grid[intraCurr.s.f][intraCurr.s.s]!='.') {
+        continue;
+      }
+      if(intraCurr.f==1) {
+        grid[intraCurr.s.f][intraCurr.s.s]=(char)(pid+48);
+        nextUp.push(intraCurr.s);
+        continue;
+      }
+
+      grid[intraCurr.s.f][intraCurr.s.s]=(char)(pid+48);
+      bfs.push(mp(intraCurr.f-1,mp(intraCurr.s.f+1,intraCurr.s.s)));
+      bfs.push(mp(intraCurr.f-1,mp(intraCurr.s.f-1,intraCurr.s.s)));
+      bfs.push(mp(intraCurr.f-1,mp(intraCurr.s.f,intraCurr.s.s+1)));
+      bfs.push(mp(intraCurr.f-1,mp(intraCurr.s.f,intraCurr.s.s-1)));
     }
   }
 
-  for(int i=1;i<=p;i++) {
-    cout<<noCastles[i]<<" ";
+  for(int pid=1;pid<=p;pid++) {
+    int ans=0;
+    for(int i=1;i<=n;i++) {
+      for(int j=1;j<=m;j++) {
+        if(pid==grid[i][j]-48) {
+          ans++;
+        }
+      }
+    }
+    cout<<ans<<" ";
   }
 
-  return 0;
+  // while(nextUp.size()) {
+  //   printf("%d,%d\n",nextUp.front().f,nextUp.front().s);
+  //   nextUp.pop();
+  // }
 }
