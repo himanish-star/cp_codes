@@ -31,15 +31,16 @@ int main() {
             }
             cout<<ans<<endl;
         } else {
-            ll ans=0;
-            for(int i=1;i<counts;i+=2) {
-                ans += pow(2,i);
+            vector<ll> divs;
+            for(ll n=sqrt(num);n>=1;n--) {
+                if(num%n==0) {
+                    divs.push_back(n);
+                    divs.push_back(num/n);
+                }
             }
-            if((ans)%(num-ans)) {
-                cout<<1<<endl;
-            } else {
-                cout<<num-ans<<endl;
-            }
+            sort(divs.begin(),divs.end());
+            divs.pop_back();
+            cout<<divs.back()<<endl;
         }
     }
     return 0;
