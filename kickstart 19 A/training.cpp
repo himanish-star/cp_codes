@@ -2,8 +2,29 @@
 
 using namespace std;
 
+class training
+{
+public:
+    training();
+    ~training();
+    
+};
+
+std::vector<int> v;
+// std::map<key, value> map;
+
+struct Node
+{
+    Node* next;
+    int data;    
+};
+
 int main() {
     int t;
+    Node* left=NULL;
+    cout<<"Hello"<<endl;
+    cout<<1+5<<endl;
+    return 0;
     cin>>t;
     int index=0;
     while(t--) {
