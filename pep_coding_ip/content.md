@@ -7,3 +7,5 @@
 - [x] 5. `Dungeon Game`		https://leetcode.com/problems/dungeon-game/
 - [x] 6. `Target Sum Subset`		https://practice.geeksforgeeks.org/problems/perfect-sum-problem/0
 - [x] 7. `Coin Change Combination`		https://www.hackerrank.com/challenges/coin-change/problem
+
+#### Sun, Sep 15/2019
