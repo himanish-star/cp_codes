@@ -9,3 +9,10 @@
 - [x] 7. `Coin Change Combination`		https://www.hackerrank.com/challenges/coin-change/problem
 
 #### Sun, Sep 15/2019
+- [x] 1. `0-1 KnapSack`		https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0
+- [x] 2. `Unbounded KnapSack`		https://www.hackerrank.com/challenges/unbounded-knapsack/problem
+- [x] 3. `Russian Doll Envelopes`		https://leetcode.com/problems/russian-doll-envelopes/
+- [ ] 4. `Max Sum Increasing sequence`		https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence/0
+- [ ] 5. `Number of LIS`		https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+- [ ] 6. `LCS`		https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem
+- [ ] 7. `LPS`		https://leetcode.com/problems/longest-palindromic-subsequence/
