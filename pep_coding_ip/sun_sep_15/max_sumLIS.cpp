@@ -19,22 +19,22 @@ int maxSumLIS(int arr[], int n) {
 
         lis[i][1]=arr[i];
         for(int j=0;j<i;j++) {
-            if(arr[i]>arr[j] && lis[i][0]-1==lis[j][0]) {
+            if(arr[i]>arr[j]) {
                 lis[i][1]=max(lis[i][1],arr[i]+lis[j][1]);
             }
         }
         ans=max(ans,lis[i][1]);
     }
 
-    for(int i=0;i<n;i++)
-        cout<<lis[i][1]<<" ";
+    // for(int i=0;i<n;i++)
+    //     cout<<lis[i][1]<<" ";
     
-    cout<<endl;
+    // cout<<endl;
 
-    for(int i=0;i<n;i++)
-        cout<<lis[i][0]<<" ";
+    // for(int i=0;i<n;i++)
+    //     cout<<lis[i][0]<<" ";
     
-    cout<<endl;
+    // cout<<endl;
 
     return ans;
 }
