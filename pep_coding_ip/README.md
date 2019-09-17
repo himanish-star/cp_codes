@@ -14,5 +14,5 @@
 - [x] 3. `Russian Doll Envelopes`		https://leetcode.com/problems/russian-doll-envelopes/
 - [ ] 4. `Max Sum Increasing sequence`		https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence/0
 - [ ] 5. `Number of LIS`		https://leetcode.com/problems/number-of-longest-increasing-subsequence/
-- [ ] 6. `LCS`		https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem
-- [ ] 7. `LPS`		https://leetcode.com/problems/longest-palindromic-subsequence/
+- [x] 6. `LCS`		https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem
+- [x] 7. `LPS`		https://leetcode.com/problems/longest-palindromic-subsequence/
