@@ -16,3 +16,20 @@
 - [x] 5. `Number of LIS`		https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 - [x] 6. `LCS`		https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem
 - [x] 7. `LPS`		https://leetcode.com/problems/longest-palindromic-subsequence/
+- Questions which don't have a link currently
+    - [ ] Crossing Bridges using LIS
+    - [ ] Rod Cutting
+
+#### Sat, Sep 21/2019
+- [ ] 1. `Count distinct palindromic subsequences`		https://leetcode.com/problems/count-different-palindromic-subsequences/
+- [ ] 2. `Longest palindromic substring`		https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0
+- [ ] 3. `Count Palindromic Substrings`		https://practice.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string/0
+- [ ] 4. `Edit distance`		https://leetcode.com/problems/edit-distance/
+- [ ] 5. `Min Palindromic Cuts`		https://practice.geeksforgeeks.org/problems/palindromic-patitioning/0
+- [ ] 6. `MCM`		https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication/0
+- [ ] 7. `Min Squares`		https://practice.geeksforgeeks.org/problems/get-minimum-squares/0
+- [ ] 8. `Non Adjacent Sum`		https://practice.geeksforgeeks.org/problems/stickler-theif/0
+- [ ] 9. `Max Sum Circular non adjacent` 		not available(do on your own)
+- [ ] 10. `Count subsequences a^ib^jc^k`		https://practice.geeksforgeeks.org/problems/count-subsequences-of-type-ai-bj-ck/0
+- [ ] 11. `Min Flips1`		https://practice.geeksforgeeks.org/problems/min-number-of-flips/0
+- [x] 12. `Count all palindromic subsequences(not distinct)`        https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1
