@@ -21,7 +21,7 @@
     - [ ] Rod Cutting
 
 #### Sat, Sep 21/2019
-- [ ] 1. `Count distinct palindromic subsequences`		https://leetcode.com/problems/count-different-palindromic-subsequences/
+- [x] 1. `Count distinct palindromic subsequences`		https://leetcode.com/problems/count-different-palindromic-subsequences/
 - [ ] 2. `Longest palindromic substring`		https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0
 - [ ] 3. `Count Palindromic Substrings`		https://practice.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string/0
 - [ ] 4. `Edit distance`		https://leetcode.com/problems/edit-distance/
