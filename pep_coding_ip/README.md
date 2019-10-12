@@ -26,7 +26,7 @@
 - [ ] 3. `Count Palindromic Substrings`		https://practice.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string/0
 - [ ] 4. `Edit distance`		https://leetcode.com/problems/edit-distance/
 - [x] 5. `Min Palindromic Cuts`		https://practice.geeksforgeeks.org/problems/palindromic-patitioning/0
-- [ ] 6. `MCM`		https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication/0
+- [x] 6. `MCM`		https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication/0
 - [ ] 7. `Min Squares`		https://practice.geeksforgeeks.org/problems/get-minimum-squares/0
 - [ ] 8. `Non Adjacent Sum`		https://practice.geeksforgeeks.org/problems/stickler-theif/0
 - [ ] 9. `Max Sum Circular non adjacent` 		not available(do on your own)
