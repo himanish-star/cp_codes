@@ -31,5 +31,5 @@
 - [ ] 8. `Non Adjacent Sum`		https://practice.geeksforgeeks.org/problems/stickler-theif/0
 - [ ] 9. `Max Sum Circular non adjacent` 		not available(do on your own)
 - [x] 10. `Count subsequences a^ib^jc^k`		https://practice.geeksforgeeks.org/problems/count-subsequences-of-type-ai-bj-ck/0
-- [ ] 11. `Min Flips1`		https://practice.geeksforgeeks.org/problems/min-number-of-flips/0
+- [x] 11. `Min Flips1`		https://practice.geeksforgeeks.org/problems/min-number-of-flips/0
 - [x] 12. `Count all palindromic subsequences(not distinct)`        https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1
