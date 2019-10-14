@@ -39,7 +39,7 @@
 
 #### Sun, Sep 22/2019
 - [x] 1. `Buy & Sell Stocks`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-- [ ] 2. `Maximum stock profit for only 1 transaction` https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- [x] 2. `Best Time to Buy and Sell Stock with Cooldown` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - [ ] 3. `Maximum profit for 2 transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 - [ ] 4. `Maximum profit for k transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 - [ ] 5. `Include Exclude (II)`
@@ -47,6 +47,5 @@
 - [ ] 7. `Paint houses with k colors`
 - [ ] 8. `Paint fences, atmost 2 adjacent fences allowed`
 - [x] 9. `Buy & Sell Stocks - ii`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-- Questions which don't have a link currently
-    - [ ] Guess the no.
+
 
