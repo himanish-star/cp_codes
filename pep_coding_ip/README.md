@@ -41,7 +41,7 @@
 - [x] 1. `Buy & Sell Stocks`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - [x] 2. `Best Time to Buy and Sell Stock with Cooldown` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - [x] 3. `Maximum profit for 2 transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
-- [ ] 4. `Maximum profit for k transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+- [x] 4. `Maximum profit for k transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 - [ ] 5. `Include Exclude (II)`
 - [ ] 6. `No Adjacent robbery circular` https://leetcode.com/problems/house-robber-ii/
 - [ ] 7. `Paint houses with k colors`
