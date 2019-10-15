@@ -44,8 +44,8 @@
 - [x] 4. `Maximum profit for k transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 - [ ] 5. `Include Exclude (II)`
 - [x] 6. `No Adjacent robbery circular` https://leetcode.com/problems/house-robber-ii/
-- [ ] 7. `Paint houses with k colors`
-- [ ] 8. `Paint fences, atmost 2 adjacent fences allowed`
+- [ ] 7. `Paint houses with k colors` 
+- [x] 8. `Paint fences, atmost 2 adjacent fences allowed` https://practice.geeksforgeeks.org/problems/painting-the-fence/0
 - [x] 9. `Buy & Sell Stocks - ii`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 
