@@ -35,17 +35,16 @@
 - [x] 12. `Count all palindromic subsequences(not distinct)`        https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1
 - [ ] 13. `Largest Square of side 1 in bool matrix`        https://leetcode.com/problems/maximal-rectangle/ https://leetcode.com/problems/largest-1-bordered-square/
 - Questions which don't have a link currently
-    - [ ] Guess the no.
+    - [ ] `Guess the no.`
 
 #### Sun, Sep 22/2019
 - [x] 1. `Buy & Sell Stocks`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - [x] 2. `Best Time to Buy and Sell Stock with Cooldown` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - [x] 3. `Maximum profit for 2 transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 - [x] 4. `Maximum profit for k transactions` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
-- [ ] 5. `Include Exclude (II)`
-- [x] 6. `No Adjacent robbery circular` https://leetcode.com/problems/house-robber-ii/
-- [ ] 7. `Paint houses with k colors` 
-- [x] 8. `Paint fences, atmost 2 adjacent fences allowed` https://practice.geeksforgeeks.org/problems/painting-the-fence/0
-- [x] 9. `Buy & Sell Stocks - ii`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-
-
+- [x] 5. `No Adjacent robbery circular` https://leetcode.com/problems/house-robber-ii/
+- [ ] 6. `Paint houses with k colors` http://tiancao.me/Leetcode-Unlocked/LeetCode%20Locked/c1.15.html
+- [x] 7. `Paint fences, atmost 2 adjacent fences allowed` https://practice.geeksforgeeks.org/problems/painting-the-fence/0
+- [x] 8. `Buy & Sell Stocks - ii`        https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+- Questions which don't have a link currently
+    - [ ] `Include Exclude (II)`
