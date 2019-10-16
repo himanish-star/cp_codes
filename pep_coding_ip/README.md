@@ -52,7 +52,7 @@
 
 #### Sat, Sep 28/2019
 - [x] 1. `Can I Win, (N, Target)`  https://leetcode.com/problems/can-i-win/
-- [ ] 2.  `Making words out of a dictionary`  https://leetcode.com/problems/word-break/ 
+- [x] 2.  `Making words out of a dictionary`  https://leetcode.com/problems/word-break/ 
 - [ ] 3.  `Minimum squares needed for a target sum`  https://leetcode.com/problems/perfect-squares/ 
 - [ ] 4.  `Decode a string`  https://leetcode.com/problems/decode-ways/ 
 - [ ] 5.  `Distinct occurrences of s2 in s1`  https://leetcode.com/problems/distinct-subsequences/ 
