@@ -55,7 +55,7 @@
 - [x] 2.  `Making words out of a dictionary`  https://leetcode.com/problems/word-break/ 
 - [x] 3.  `Minimum squares needed for a target sum`  https://leetcode.com/problems/perfect-squares/ 
 - [x] 4.  `Decode a string`  https://leetcode.com/problems/decode-ways/ 
-- [ ] 5.  `Distinct occurrences of s2 in s1`  https://leetcode.com/problems/distinct-subsequences/ 
+- [x] 5.  `Distinct occurrences of s2 in s1`  https://leetcode.com/problems/distinct-subsequences/ 
 - [ ] 6.  `Divisor game`  https://leetcode.com/problems/divisor-game/ 
 - [ ] 7.  `Knight's Dialer`  https://leetcode.com/problems/knight-dialer/ 
 - [ ] 8.  `High Effort Low effort`   
