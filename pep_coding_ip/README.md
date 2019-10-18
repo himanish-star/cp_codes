@@ -59,6 +59,6 @@
 - [x] 6.  `Divisor game`  https://leetcode.com/problems/divisor-game/ 
 - [ ] 7.  `Knight's Dialer`  https://leetcode.com/problems/knight-dialer/ 
 - [ ] 8.  `High Effort Low effort`   
-- [ ] 9.  `Breaking integers into 2 or more such that product is max`  https://leetcode.com/problems/integer-break/
+- [x] 9.  `Breaking integers into 2 or more such that product is max`  https://leetcode.com/problems/integer-break/
 - [ ] 10.  `Palindrome with minimum insertions in a string`  https://leetcode.com/problems/shortest-palindrome/  
 - [ ] 11.  `Boolean Parenthesization`  
