@@ -1,4 +1,4 @@
-##Dynamic Programming
+## Dynamic Programming
 #### Sat, Sep 14/2019
 
 - [x] 1. `Climb stairs`    https://leetcode.com/problems/climbing-stairs/
@@ -54,7 +54,7 @@
 - [x] 1. `Can I Win, (N, Target)`  https://leetcode.com/problems/can-i-win/
 - [x] 2.  `Making words out of a dictionary`  https://leetcode.com/problems/word-break/ 
 - [x] 3.  `Minimum squares needed for a target sum`  https://leetcode.com/problems/perfect-squares/ 
-- [ ] 4.  `Decode a string`  https://leetcode.com/problems/decode-ways/ 
+- [x] 4.  `Decode a string`  https://leetcode.com/problems/decode-ways/ 
 - [ ] 5.  `Distinct occurrences of s2 in s1`  https://leetcode.com/problems/distinct-subsequences/ 
 - [ ] 6.  `Divisor game`  https://leetcode.com/problems/divisor-game/ 
 - [ ] 7.  `Knight's Dialer`  https://leetcode.com/problems/knight-dialer/ 
