@@ -61,4 +61,14 @@
 - [x] 8.  `High Effort Low effort` https://practice.geeksforgeeks.org/problems/high-effort-vs-low-effort/0
 - [x] 9.  `Breaking integers into 2 or more such that product is max`  https://leetcode.com/problems/integer-break/
 - [ ] 10.  `Palindrome with minimum insertions in a string`  https://leetcode.com/problems/shortest-palindrome/  
-- [ ] 11.  `Boolean Parenthesization`  
+- [x] 11.  `Boolean Parenthesization` https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0 
+
+#### Sat, Oct 19/2019
+- [ ] 1. `Connected Components - count and queries`
+- [ ] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
+- [ ] 3. `Number of islands ii` https://www.lintcode.com/problem/number-of-islands-ii/description
+- [ ] 4. `Course schedule` https://leetcode.com/problems/course-schedule-ii/
+- [ ] 5. `Most stones removed` https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+- [ ] 6. `Bipartite graph` https://practice.geeksforgeeks.org/problems/bipartite-graph/1
+- [ ] 7. `Rotten oranges` https://leetcode.com/problems/rotting-oranges/
+- [ ] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
