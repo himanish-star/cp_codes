@@ -64,15 +64,15 @@
 - [x] 11.  `Boolean Parenthesization` https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0 
 
 #### Sun, Sep 29/2019
-- [x] 1. Longest Fibonacci Seq	https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
-- [ ] 2. Letter Writer	
-- [ ] 3. Knights Probability	https://leetcode.com/problems/knight-probability-in-chessboard/
-- [ ] 4. Maximum product Sub array	https://leetcode.com/problems/maximum-product-subarray/
-- [ ] 5. Largest Uncommon Subsequence	
-- [ ] 6. Freedom Trial (entering code on circular lock)	https://leetcode.com/problems/freedom-trail/
-- [ ] 7. Minimum steps to form a string	
-- [ ] 8. Cherry Pickup	https://leetcode.com/problems/cherry-pickup/
-- [ ] 9. LCS of 3 strings	https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
+- [x] 1. `Longest Fibonacci Seq`	https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
+- [x] 2. `Letter Writer`	https://practice.geeksforgeeks.org/problems/letter-writer/0
+- [ ] 3. `Knights Probability`	https://leetcode.com/problems/knight-probability-in-chessboard/
+- [ ] 4. `Maximum product Sub array`	https://leetcode.com/problems/maximum-product-subarray/
+- [ ] 5. `Largest Uncommon Subsequence`	
+- [ ] 6. `Freedom Trial (entering code on circular lock)`	https://leetcode.com/problems/freedom-trail/
+- [ ] 7. `Minimum steps to form a string`	
+- [ ] 8. `Cherry Pickup`	https://leetcode.com/problems/cherry-pickup/
+- [ ] 9. `LCS of 3 strings`	https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
 
 ## Graph
 #### Sat, Oct 19/2019
