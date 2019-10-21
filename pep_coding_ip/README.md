@@ -75,7 +75,7 @@
 - [ ] 9. `LCS of 3 strings`	https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
 
 #### Sat, Oct 05/2019
-- [ ] 1. `Scramble Strings`	https://leetcode.com/problems/scramble-string/
+- [x] 1. `Scramble Strings`	https://leetcode.com/problems/scramble-string/
 - [x] 2. `Burst Balloons`	https://leetcode.com/problems/burst-balloons/
 - [ ] 3. `Minimum square pieces in a rectangle`	https://www.geeksforgeeks.org/paper-cut-minimum-number-squares-set-2/
 - [ ] 4. `Stock Buy Sell with Cooldown`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
