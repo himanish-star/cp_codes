@@ -74,6 +74,36 @@
 - [ ] 8. `Cherry Pickup`	https://leetcode.com/problems/cherry-pickup/
 - [ ] 9. `LCS of 3 strings`	https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
 
+#### Sat, Oct 05/2019
+- [ ] 1. `Scramble Strings`	https://leetcode.com/problems/scramble-string/
+- [x] 2. `Burst Balloons`	https://leetcode.com/problems/burst-balloons/
+- [ ] 3. `Minimum square pieces in a rectangle`	https://www.geeksforgeeks.org/paper-cut-minimum-number-squares-set-2/
+- [ ] 4. `Stock Buy Sell with Cooldown`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+- [ ] 5. `Stock Buy Sell with transaction fee 'k'`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+- [ ] 6. `Max Sum Alternating`	https://www.geeksforgeeks.org/maximum-sum-alternating-subsequence-sum/
+- [ ] 7. `Target sum subset with minimum difference b/w 2 sets`	https://leetcode.com/problems/partition-equal-subset-sum/
+
+#### Sun, Oct 06/2019
+- [ ] 1. `Triangulation`	https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
+- [ ] 2. `Max sum of 3 overlapping k sized arrays`	https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+- [ ] 3. `Sub array having difference of 0s1s maximum`	
+- [ ] 4. `Total No. of BSTs (Catalan)`	https://leetcode.com/problems/unique-binary-search-trees/
+- [ ] 5. `Type of Handshakes (Catalan)`	https://www.geeksforgeeks.org/applications-of-catalan-numbers/
+- [ ] 6. `Type of mountain ranges (Catalan)`
+- [ ] 7. `No. of parenthesis combinations (Catalan)`	
+- [ ] 8. `Number of ways to partition array in to k subsets`	https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+- [ ] 9. `Pairwise joining chains (2d LIS)`	https://leetcode.com/problems/maximum-length-of-pair-chain/
+- [ ] 10. `Minimum ASCII deletion to make 2 strings` =	https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+- [ ] 11. `Longest continuous/consecutive path in matrix`	https://www.geeksforgeeks.org/find-length-of-the-longest-consecutive-path-in-a-character-matrix/
+- [ ] 12. `A*1 and 1*n ki types of tile fittings.` https://leetcode.com/problems/domino-and-tromino-tiling/
+
+#### Mon, Oct 07/2019
+- [ ] 1. `Remove boxes`	https://leetcode.com/problems/remove-boxes/. 
+- [ ] 2. `Largest zig zag sequence.`
+- [ ] 3. `Shuffle a playlist`	https://leetcode.com/problems/number-of-music-playlists/. 
+- [ ] 4. `Binary tree cameras`	https://leetcode.com/problems/binary-tree-cameras/. 
+- [ ] 5. `Painter's partition.` 
+
 ## Graph
 #### Sat, Oct 19/2019
 - [ ] 1. `Connected Components - count and queries`
