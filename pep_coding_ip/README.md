@@ -77,7 +77,7 @@
 #### Sat, Oct 05/2019
 - [x] 1. `Scramble Strings`	https://leetcode.com/problems/scramble-string/
 - [x] 2. `Burst Balloons`	https://leetcode.com/problems/burst-balloons/
-- [ ] 3. `Minimum square pieces in a rectangle`	https://www.geeksforgeeks.org/paper-cut-minimum-number-squares-set-2/
+- [x] 3. `Minimum square pieces in a rectangle`	https://practice.geeksforgeeks.org/problems/min-cut-square/0
 - [ ] 4. `Stock Buy Sell with Cooldown`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - [ ] 5. `Stock Buy Sell with transaction fee 'k'`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 - [ ] 6. `Max Sum Alternating`	https://www.geeksforgeeks.org/maximum-sum-alternating-subsequence-sum/
