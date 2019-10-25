@@ -78,7 +78,7 @@
 - [x] 1. `Scramble Strings`	https://leetcode.com/problems/scramble-string/
 - [x] 2. `Burst Balloons`	https://leetcode.com/problems/burst-balloons/
 - [x] 3. `Minimum square pieces in a rectangle`	https://practice.geeksforgeeks.org/problems/min-cut-square/0
-- [ ] 4. `Stock Buy Sell with Cooldown`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+- [x] 4. `Stock Buy Sell with Cooldown`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - [ ] 5. `Stock Buy Sell with transaction fee 'k'`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 - [ ] 6. `Max Sum Alternating`	https://www.geeksforgeeks.org/maximum-sum-alternating-subsequence-sum/
 - [ ] 7. `Target sum subset with minimum difference b/w 2 sets`	https://leetcode.com/problems/partition-equal-subset-sum/
@@ -114,3 +114,12 @@
 - [ ] 6. `Bipartite graph` https://practice.geeksforgeeks.org/problems/bipartite-graph/1
 - [ ] 7. `Rotten oranges` https://leetcode.com/problems/rotting-oranges/
 - [ ] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
+
+#### Sun, Oct 20/2019
+- [ ] 1. `Keys and Rooms` https://leetcode.com/problems/keys-and-rooms/
+- [ ] 2. `Doctor Strange` https://practice.geeksforgeeks.org/problems/doctor-strange/0
+- [ ] 3. `01-matrix` https://leetcode.com/problems/01-matrix/
+- [ ] 4. `Job Sequencing Problem` https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0
+- [ ] 5. `Circle of strings` https://practice.geeksforgeeks.org/problems/circle-of-strings/0
+- [ ] 6. `Coloring a border` https://leetcode.com/problems/coloring-a-border/
+- [ ] 7. `Euler Path & Euler circuit` https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1
