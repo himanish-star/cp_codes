@@ -79,7 +79,7 @@
 - [x] 2. `Burst Balloons`	https://leetcode.com/problems/burst-balloons/
 - [x] 3. `Minimum square pieces in a rectangle`	https://practice.geeksforgeeks.org/problems/min-cut-square/0
 - [x] 4. `Stock Buy Sell with Cooldown`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
-- [ ] 5. `Stock Buy Sell with transaction fee 'k'`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+- [x] 5. `Stock Buy Sell with transaction fee 'k'`	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 - [ ] 6. `Max Sum Alternating`	https://www.geeksforgeeks.org/maximum-sum-alternating-subsequence-sum/
 - [ ] 7. `Target sum subset with minimum difference b/w 2 sets`	https://leetcode.com/problems/partition-equal-subset-sum/
 
