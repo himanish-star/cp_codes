@@ -87,7 +87,7 @@
 - [ ] 1. `Triangulation`	https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 - [ ] 2. `Max sum of 3 overlapping k sized arrays`	https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 - [ ] 3. `Sub array having difference of 0s1s maximum`	
-- [ ] 4. `Total No. of BSTs (Catalan)`	https://leetcode.com/problems/unique-binary-search-trees/
+- [x] 4. `Total No. of BSTs (Catalan)`	https://leetcode.com/problems/unique-binary-search-trees/
 - [ ] 5. `Type of Handshakes (Catalan)`	https://www.geeksforgeeks.org/applications-of-catalan-numbers/
 - [ ] 6. `Type of mountain ranges (Catalan)`
 - [ ] 7. `No. of parenthesis combinations (Catalan)`	
