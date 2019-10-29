@@ -105,6 +105,22 @@
 - [ ] 5. `Painter's partition.` 
 
 ## Graph
+#### Sat, Oct 12/2019
+- [x] 1. `BFS` https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+- [x] 2. `DFS` https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+- [ ] 3. `Disjoint set unit - Union by rank - Path compression - Union by size`
+- [ ] 4. `Kruskal`
+- [ ] 5. `Prims`
+- [ ] 6. `Topological Sort`
+- [ ] 7. `Kahn's Algo`
+
+#### Sun, Oct 13/2019
+- [ ] 1. `Dijkstra`
+- [ ] 2. `Bellman Ford`
+- [ ] 3. `Floyd Warshall`
+- [ ] 4. `Kosaraju`
+- [ ] 5. `Bridges & Articulation`
+
 #### Sat, Oct 19/2019
 - [ ] 1. `Connected Components - count and queries`
 - [ ] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
