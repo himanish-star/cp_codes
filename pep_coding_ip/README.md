@@ -108,7 +108,7 @@
 #### Sat, Oct 12/2019
 - [x] 1. `BFS` https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 - [x] 2. `DFS` https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
-- [ ] 3. `Disjoint set unit - Union by rank - Path compression - Union by size`
+- [x] 3. `Disjoint set unit - Union by rank - Path compression - Union by size` https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 - [ ] 4. `Kruskal`
 - [ ] 5. `Prims`
 - [ ] 6. `Topological Sort`
