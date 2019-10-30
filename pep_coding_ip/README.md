@@ -111,8 +111,8 @@
 - [x] 3. `Disjoint set unit - Union by rank - Path compression - Union by size` https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 - [ ] 4. `Kruskal`
 - [ ] 5. `Prims`
-- [ ] 6. `Topological Sort`
-- [ ] 7. `Kahn's Algo`
+- [x] 6. `Topological Sort` https://practice.geeksforgeeks.org/problems/topological-sort/1
+- [x] 7. `Kahn's Algo` https://practice.geeksforgeeks.org/problems/topological-sort/1
 
 #### Sun, Oct 13/2019
 - [ ] 1. `Dijkstra`
