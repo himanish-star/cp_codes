@@ -119,7 +119,7 @@
 - [ ] 2. `Bellman Ford`
 - [ ] 3. `Floyd Warshall`
 - [ ] 4. `Kosaraju`
-- [ ] 5. `Bridges & Articulation`
+- [x] 5. `Bridges & Articulation` https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
 
 #### Sat, Oct 19/2019
 - [ ] 1. `Connected Components - count and queries`
