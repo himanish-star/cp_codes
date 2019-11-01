@@ -118,7 +118,7 @@
 - [ ] 1. `Dijkstra`
 - [ ] 2. `Bellman Ford`
 - [ ] 3. `Floyd Warshall`
-- [ ] 4. `Kosaraju`
+- [x] 4. `Kosaraju` https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
 - [x] 5. `Bridges & Articulation` https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
 
 #### Sat, Oct 19/2019
