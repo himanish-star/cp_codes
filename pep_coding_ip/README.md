@@ -124,7 +124,7 @@
 #### Sat, Oct 19/2019
 - [x] 1. `Connected Components - count and queries`
 - [x] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
-- [ ] 3. `Number of islands ii` https://www.lintcode.com/problem/number-of-islands-ii/description
+- [x] 3. `Number of islands ii` https://www.lintcode.com/problem/number-of-islands-ii/description
 - [ ] 4. `Course schedule` https://leetcode.com/problems/course-schedule-ii/
 - [ ] 5. `Most stones removed` https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 - [ ] 6. `Bipartite graph` https://practice.geeksforgeeks.org/problems/bipartite-graph/1
