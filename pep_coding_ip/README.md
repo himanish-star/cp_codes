@@ -122,8 +122,8 @@
 - [x] 5. `Bridges & Articulation` https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
 
 #### Sat, Oct 19/2019
-- [ ] 1. `Connected Components - count and queries`
-- [ ] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
+- [x] 1. `Connected Components - count and queries`
+- [x] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
 - [ ] 3. `Number of islands ii` https://www.lintcode.com/problem/number-of-islands-ii/description
 - [ ] 4. `Course schedule` https://leetcode.com/problems/course-schedule-ii/
 - [ ] 5. `Most stones removed` https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
