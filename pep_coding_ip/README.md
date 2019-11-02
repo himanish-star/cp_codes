@@ -128,7 +128,7 @@
 - [ ] 4. `Course schedule` https://leetcode.com/problems/course-schedule-ii/
 - [ ] 5. `Most stones removed` https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 - [ ] 6. `Bipartite graph` https://practice.geeksforgeeks.org/problems/bipartite-graph/1
-- [ ] 7. `Rotten oranges` https://leetcode.com/problems/rotting-oranges/
+- [x] 7. `Rotten oranges` https://leetcode.com/problems/rotting-oranges/
 - [ ] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
 
 #### Sun, Oct 20/2019
