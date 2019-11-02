@@ -129,7 +129,7 @@
 - [ ] 5. `Most stones removed` https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 - [ ] 6. `Bipartite graph` https://practice.geeksforgeeks.org/problems/bipartite-graph/1
 - [x] 7. `Rotten oranges` https://leetcode.com/problems/rotting-oranges/
-- [ ] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
+- [x] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
 
 #### Sun, Oct 20/2019
 - [ ] 1. `Keys and Rooms` https://leetcode.com/problems/keys-and-rooms/
