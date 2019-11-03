@@ -132,7 +132,7 @@
 - [x] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
 
 #### Sun, Oct 20/2019
-- [ ] 1. `Keys and Rooms` https://leetcode.com/problems/keys-and-rooms/
+- [x] 1. `Keys and Rooms` https://leetcode.com/problems/keys-and-rooms/
 - [ ] 2. `Doctor Strange` https://practice.geeksforgeeks.org/problems/doctor-strange/0
 - [ ] 3. `01-matrix` https://leetcode.com/problems/01-matrix/
 - [ ] 4. `Job Sequencing Problem` https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0
