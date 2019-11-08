@@ -134,7 +134,7 @@
 #### Sun, Oct 20/2019
 - [x] 1. `Keys and Rooms` https://leetcode.com/problems/keys-and-rooms/
 - [ ] 2. `Doctor Strange` https://practice.geeksforgeeks.org/problems/doctor-strange/0
-- [ ] 3. `01-matrix` https://leetcode.com/problems/01-matrix/
+- [x] 3. `01-matrix` https://leetcode.com/problems/01-matrix/
 - [x] 4. `Job Sequencing Problem` https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0
 - [ ] 5. `Circle of strings` https://practice.geeksforgeeks.org/problems/circle-of-strings/0
 - [x] 6. `Coloring a border` https://leetcode.com/problems/coloring-a-border/
