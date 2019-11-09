@@ -52,16 +52,16 @@
 
 #### Sat, Sep 28/2019
 - [x] 1. `Can I Win, (N, Target)`  https://leetcode.com/problems/can-i-win/
-- [x] 2.  `Making words out of a dictionary`  https://leetcode.com/problems/word-break/ 
-- [x] 3.  `Minimum squares needed for a target sum`  https://leetcode.com/problems/perfect-squares/ 
-- [x] 4.  `Decode a string`  https://leetcode.com/problems/decode-ways/ 
-- [x] 5.  `Distinct occurrences of s2 in s1`  https://leetcode.com/problems/distinct-subsequences/ 
-- [x] 6.  `Divisor game`  https://leetcode.com/problems/divisor-game/ 
-- [x] 7.  `Knight's Dialer`  https://leetcode.com/problems/knight-dialer/ 
+- [x] 2.  `Making words out of a dictionary`  https://leetcode.com/problems/word-break/
+- [x] 3.  `Minimum squares needed for a target sum`  https://leetcode.com/problems/perfect-squares/
+- [x] 4.  `Decode a string`  https://leetcode.com/problems/decode-ways/
+- [x] 5.  `Distinct occurrences of s2 in s1`  https://leetcode.com/problems/distinct-subsequences/
+- [x] 6.  `Divisor game`  https://leetcode.com/problems/divisor-game/
+- [x] 7.  `Knight's Dialer`  https://leetcode.com/problems/knight-dialer/
 - [x] 8.  `High Effort Low effort` https://practice.geeksforgeeks.org/problems/high-effort-vs-low-effort/0
 - [x] 9.  `Breaking integers into 2 or more such that product is max`  https://leetcode.com/problems/integer-break/
-- [ ] 10.  `Palindrome with minimum insertions in a string`  https://leetcode.com/problems/shortest-palindrome/  
-- [x] 11.  `Boolean Parenthesization` https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0 
+- [ ] 10.  `Palindrome with minimum insertions in a string`  https://leetcode.com/problems/shortest-palindrome/ 
+- [x] 11.  `Boolean Parenthesization` https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0
 
 #### Sun, Sep 29/2019
 - [x] 1. `Longest Fibonacci Seq`	https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
@@ -98,11 +98,11 @@
 - [ ] 12. `A*1 and 1*n ki types of tile fittings.` https://leetcode.com/problems/domino-and-tromino-tiling/
 
 #### Mon, Oct 07/2019
-- [ ] 1. `Remove boxes`	https://leetcode.com/problems/remove-boxes/. 
+- [ ] 1. `Remove boxes`	https://leetcode.com/problems/remove-boxes/.
 - [ ] 2. `Largest zig zag sequence.`
-- [ ] 3. `Shuffle a playlist`	https://leetcode.com/problems/number-of-music-playlists/. 
-- [ ] 4. `Binary tree cameras`	https://leetcode.com/problems/binary-tree-cameras/. 
-- [ ] 5. `Painter's partition.` 
+- [ ] 3. `Shuffle a playlist`	https://leetcode.com/problems/number-of-music-playlists/.
+- [ ] 4. `Binary tree cameras`	https://leetcode.com/problems/binary-tree-cameras/.
+- [ ] 5. `Painter's partition.`
 
 ## Graph
 #### Sat, Oct 12/2019
@@ -138,4 +138,26 @@
 - [x] 4. `Job Sequencing Problem` https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0
 - [x] 5. `Circle of strings` https://practice.geeksforgeeks.org/problems/circle-of-strings/0
 - [x] 6. `Coloring a border` https://leetcode.com/problems/coloring-a-border/
-- [ ] 7. `Euler Path & Euler circuit` https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1
+- [x] 7. `Euler Path & Euler circuit` https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1
+
+#### Sat, Oct 26/2019
+- [ ] 1. `Reconstruct Itinerary` https://leetcode.com/problems/reconstruct-itinerary/
+- [ ] 2. `Making A Large Island` https://leetcode.com/problems/making-a-large-island/
+- [ ] 3. `Castle RUN` https://practice.geeksforgeeks.org/problems/castle-run/0
+- [ ] 4. `Bus Routes` https://leetcode.com/problems/bus-routes/
+- [ ] 5. `Mother Vertex` https://practice.geeksforgeeks.org/problems/mother-vertex/1
+- [ ] 6. `Minimum Swaps to Sort` https://practice.geeksforgeeks.org/problems/minimum-swaps/1
+- [ ] 7. `Minimize Malware Spread` https://leetcode.com/problems/minimize-malware-spread/
+- [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
+- [ ] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
+
+#### Sat, Oct 27/2019
+- [ ] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
+- [ ] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
+- [ ] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
+- [ ] 4. `Sentence Similarity II` https://www.lintcode.com/problem/sentence-similarity-ii/description
+- [ ] 5. `Loud and Rich` https://leetcode.com/problems/loud-and-rich
+- [ ] 6. `Redundant Connection` https://leetcode.com/problems/redundant-connection
+- [ ] 7. `Swim in Rising Water` https://leetcode.com/problems/swim-in-rising-water
+- [ ] 8. `K-Similar Strings` https://leetcode.com/problems/k-similar-strings
+- [ ] 9. `Longest Consecutive Sequence` https://leetcode.com/problems/longest-consecutive-sequence
