@@ -141,7 +141,7 @@
 - [x] 7. `Euler Path & Euler circuit` https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1
 
 #### Sat, Oct 26/2019
-- [ ] 1. `Reconstruct Itinerary` https://leetcode.com/problems/reconstruct-itinerary/
+- [x] 1. `Reconstruct Itinerary` https://leetcode.com/problems/reconstruct-itinerary/
 - [ ] 2. `Making A Large Island` https://leetcode.com/problems/making-a-large-island/
 - [ ] 3. `Castle RUN` https://practice.geeksforgeeks.org/problems/castle-run/0
 - [ ] 4. `Bus Routes` https://leetcode.com/problems/bus-routes/
