@@ -121,7 +121,7 @@
 - [x] 4. `Kosaraju` https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
 - [x] 5. `Bridges & Articulation` https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
 
-#### Sat, Oct 19/2019
+#### Sat, Oct 26/2019
 - [x] 1. `Connected Components - count and queries`
 - [x] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
 - [x] 3. `Number of islands ii` https://www.lintcode.com/problem/number-of-islands-ii/description
@@ -131,7 +131,7 @@
 - [x] 7. `Rotten oranges` https://leetcode.com/problems/rotting-oranges/
 - [x] 8. `Evaluate division` https://leetcode.com/problems/evaluate-division/
 
-#### Sun, Oct 20/2019
+#### Sun, Oct 27/2019
 - [x] 1. `Keys and Rooms` https://leetcode.com/problems/keys-and-rooms/
 - [ ] 2. `Doctor Strange` https://practice.geeksforgeeks.org/problems/doctor-strange/0
 - [x] 3. `01-matrix` https://leetcode.com/problems/01-matrix/
@@ -140,7 +140,7 @@
 - [x] 6. `Coloring a border` https://leetcode.com/problems/coloring-a-border/
 - [x] 7. `Euler Path & Euler circuit` https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1
 
-#### Sat, Oct 26/2019
+#### Sat, Nov 03/2019
 - [x] 1. `Reconstruct Itinerary` https://leetcode.com/problems/reconstruct-itinerary/
 - [x] 2. `Making A Large Island` https://leetcode.com/problems/making-a-large-island/
 - [x] 3. `Castle RUN` https://practice.geeksforgeeks.org/problems/castle-run/0
@@ -151,7 +151,7 @@
 - [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
 - [ ] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
 
-#### Sat, Oct 27/2019
+#### Sat, Nov 04/2019
 - [ ] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
 - [ ] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
 - [ ] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
