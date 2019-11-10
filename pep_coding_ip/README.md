@@ -143,7 +143,7 @@
 #### Sat, Oct 26/2019
 - [x] 1. `Reconstruct Itinerary` https://leetcode.com/problems/reconstruct-itinerary/
 - [x] 2. `Making A Large Island` https://leetcode.com/problems/making-a-large-island/
-- [ ] 3. `Castle RUN` https://practice.geeksforgeeks.org/problems/castle-run/0
+- [x] 3. `Castle RUN` https://practice.geeksforgeeks.org/problems/castle-run/0
 - [ ] 4. `Bus Routes` https://leetcode.com/problems/bus-routes/
 - [ ] 5. `Mother Vertex` https://practice.geeksforgeeks.org/problems/mother-vertex/1
 - [ ] 6. `Minimum Swaps to Sort` https://practice.geeksforgeeks.org/problems/minimum-swaps/1
