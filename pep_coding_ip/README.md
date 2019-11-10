@@ -151,7 +151,7 @@
 - [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
 - [ ] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
 
-#### Sat, Nov 04/2019
+#### Sun, Nov 04/2019
 - [ ] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
 - [ ] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
 - [ ] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
