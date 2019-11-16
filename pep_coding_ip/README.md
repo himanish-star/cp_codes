@@ -162,7 +162,7 @@
 - [ ] 8. `K-Similar Strings` https://leetcode.com/problems/k-similar-strings
 - [ ] 9. `Longest Consecutive Sequence` https://leetcode.com/problems/longest-consecutive-sequence
 
-## Arrays
+## ```Arrays```
 #### Sat, Nov 16/2019
 - [ ] 1. `K concatenation` https://www.codechef.com/JAN18/problems/KCON
 - [x] 2. `sum of even numbers after queries` https://leetcode.com/problems/sum-of-even-numbers-after-queries/
@@ -170,3 +170,4 @@
 - [ ] 4. `Binary Array Sorting` https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
 - [ ] 6. `Sort array by parity` https://leetcode.com/problems/sort-array-by-parity/
 - [x] 7. `Reveal cards in increasing order` https://leetcode.com/problems/reveal-cards-in-increasing-order/
+- [ ] 10. `Boats to save people` https://leetcode.com/problems/boats-to-save-people/
