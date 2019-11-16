@@ -161,3 +161,7 @@
 - [ ] 7. `Swim in Rising Water` https://leetcode.com/problems/swim-in-rising-water
 - [ ] 8. `K-Similar Strings` https://leetcode.com/problems/k-similar-strings
 - [ ] 9. `Longest Consecutive Sequence` https://leetcode.com/problems/longest-consecutive-sequence
+
+## Arrays
+#### Sat, Nov 16/2019
+- [x] 3. `Container with most water` https://leetcode.com/problems/container-with-most-water/ 
