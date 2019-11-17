@@ -4,8 +4,22 @@ using namespace std;
 
 bool possible;
 
+
+struct Node {
+    int sum;
+    bool satisfy;
+};
+
+map<string,Node> memo;
+
+
+
 void dfs(int arr[],bool add,int sum,int used,int t) {
     int noMoves=0;
+
+    if(possible)
+        return;
+
     for(int i=0;i<9;i++) {
         if(arr[i]>0) {
             arr[i]--;
@@ -17,8 +31,9 @@ void dfs(int arr[],bool add,int sum,int used,int t) {
             else
                 vadd=-(i+1);
 
-            dfs(arr,!add,sum+vadd,used+1,t);
-            
+            dfs(arr,!add,(sum+vadd)%11,used+1,t);
+            // if((vadd+res.sum)%11==0)
+
             arr[i]++;
         } {
             noMoves++;
