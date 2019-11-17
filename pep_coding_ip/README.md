@@ -1,4 +1,4 @@
-## Dynamic Programming
+## ✔️ Dynamic Programming
 #### Sat, Sep 14/2019
 
 - [x] 1. `Climb stairs`    https://leetcode.com/problems/climbing-stairs/
@@ -104,7 +104,7 @@
 - [ ] 4. `Binary tree cameras`	https://leetcode.com/problems/binary-tree-cameras/.
 - [ ] 5. `Painter's partition.`
 
-## Graph
+## ✔️ Graph
 #### Sat, Oct 12/2019
 - [x] 1. `BFS` https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 - [x] 2. `DFS` https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
@@ -162,7 +162,7 @@
 - [x] 8. `K-Similar Strings` https://leetcode.com/problems/k-similar-strings
 - [ ] 9. `Longest Consecutive Sequence` https://leetcode.com/problems/longest-consecutive-sequence
 
-## ```Arrays```
+## ✔️ Arrays & Strings
 #### Sat, Nov 16/2019
 - [ ] 1. `K concatenation` https://www.codechef.com/JAN18/problems/KCON
 - [x] 2. `sum of even numbers after queries` https://leetcode.com/problems/sum-of-even-numbers-after-queries/
