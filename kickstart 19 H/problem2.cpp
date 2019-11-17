@@ -5,21 +5,21 @@ using namespace std;
 bool possible;
 
 
-struct Node {
-    int sum;
-    bool satisfy;
-};
+map<string,vector<int>> memo;
 
-map<string,Node> memo;
+vector<int> dfs(int arr[],bool add,int sum,int used,int t) {
+    string id="";
 
+    for(int i=0;i<9;i++) {
+        id+=to_string(arr[i]);
+        id+="-";
+    }
 
+    if(memo.find(id)!=memo.end()) {
+        return memo[id];
+    }
 
-void dfs(int arr[],bool add,int sum,int used,int t) {
-    int noMoves=0;
-
-    if(possible)
-        return;
-
+    vector<int> sums;
     for(int i=0;i<9;i++) {
         if(arr[i]>0) {
             arr[i]--;
@@ -31,17 +31,19 @@ void dfs(int arr[],bool add,int sum,int used,int t) {
             else
                 vadd=-(i+1);
 
-            dfs(arr,!add,(sum+vadd)%11,used+1,t);
-            // if((vadd+res.sum)%11==0)
+            vector<int> res_sums=dfs(arr,!add,(sum+vadd)%11,used+1,t);
+            for(int j=0;j<res_sums.size();j++) {
+                sums.push_back((vadd+res_sums[j])%11);
+            }
 
             arr[i]++;
-        } {
-            noMoves++;
         }
     }
-    if(noMoves==9 && used==t) {
-        if(sum%11==0)
-            possible=true;
+    if(sums.size())
+        return memo[id]=sums;
+    else {
+        sums.push_back(0);
+        return memo[id]=sums;
     }
 }
 
@@ -59,7 +61,14 @@ int main() {
         }
         
         possible=false;
-        dfs(arr,true,0,0,total_digits);
+        vector<int> res_sums=dfs(arr,true,0,0,total_digits);
+
+        for(int i=0;i<res_sums.size();i++) {
+            if(res_sums[i]%11==0) {
+                possible=true;
+                break;
+            }
+        }
 
         cout<<"Case #"<<count++<<": ";
         if(possible)
