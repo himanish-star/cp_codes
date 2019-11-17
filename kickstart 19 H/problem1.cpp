@@ -2,6 +2,18 @@
 
 using namespace std;
 
+void insertionSort(vector<int> &arr,int key)  
+{  
+    int j=arr.size()-1;
+    arr.push_back(0);
+    while (j >= 0 && arr[j] > key) 
+    {  
+        arr[j+1]=arr[j];  
+        j = j - 1;  
+    }
+    arr[j+1]=key;
+} 
+
 int main() {
     int t;
     cin>>t;
@@ -20,6 +32,17 @@ int main() {
             cin>>num;
             arr[i]=num;
 
+            if(!sorted.size()) {
+                sorted.push_back(num);
+            } else {
+                insertionSort(sorted,num);
+            }
+
+            // cout<<"new sorted: ";
+            // for(int it=0;it<sorted.size();it++)
+            //     cout<<sorted[it]<<" ";
+            // cout<<endl;
+
             if(num>=target) {
                 no++;
             }
@@ -29,11 +52,9 @@ int main() {
                     ltarget=target;
                     target++;
 
-                    no=0;
-                    for(int j=0;j<=i;j++) {
-                        if(arr[j]>=target)
-                            no++;
-                    }
+                    no=lower_bound(sorted.begin(),sorted.end(),target)-sorted.begin();
+                    no=sorted.size()-no;
+                    // cout<<"no: "<<no<<", new target: "<<target<<endl;
                 } else {
                     res.push_back(ltarget);
                 }
