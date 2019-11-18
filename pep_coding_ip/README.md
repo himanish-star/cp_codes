@@ -156,7 +156,7 @@
 - [ ] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
 - [ ] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
 - [ ] 4. `Sentence Similarity II` https://www.lintcode.com/problem/sentence-similarity-ii/description
-- [ ] 5. `Loud and Rich` https://leetcode.com/problems/loud-and-rich
+- [x] 5. `Loud and Rich` https://leetcode.com/problems/loud-and-rich
 - [ ] 6. `Redundant Connection` https://leetcode.com/problems/redundant-connection
 - [x] 7. `Swim in Rising Water` https://leetcode.com/problems/swim-in-rising-water
 - [x] 8. `K-Similar Strings` https://leetcode.com/problems/k-similar-strings
