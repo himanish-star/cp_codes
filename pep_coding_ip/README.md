@@ -144,7 +144,7 @@
 - [x] 2. `Making A Large Island` https://leetcode.com/problems/making-a-large-island/
 - [x] 3. `Castle RUN` https://practice.geeksforgeeks.org/problems/castle-run/0
 - [x] 4. `Bus Routes` https://leetcode.com/problems/bus-routes/
-- [ ] 5. `Mother Vertex` https://practice.geeksforgeeks.org/problems/mother-vertex/1
+- [x] 5. `Mother Vertex` https://practice.geeksforgeeks.org/problems/mother-vertex/1
 - [ ] 6. `Minimum Swaps to Sort` https://practice.geeksforgeeks.org/problems/minimum-swaps/1
 - [ ] 7. `Minimize Malware Spread` https://leetcode.com/problems/minimize-malware-spread/
 - [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
