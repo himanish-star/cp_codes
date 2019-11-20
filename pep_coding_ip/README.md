@@ -151,7 +151,7 @@
 - [x] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
 
 #### Sun, Nov 03/2019
-- [ ] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
+- [x] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
 - [ ] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
 - [ ] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
 - [ ] 4. `Sentence Similarity II` https://www.lintcode.com/problem/sentence-similarity-ii/description
