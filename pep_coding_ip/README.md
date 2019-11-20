@@ -146,7 +146,7 @@
 - [x] 4. `Bus Routes` https://leetcode.com/problems/bus-routes/
 - [x] 5. `Mother Vertex` https://practice.geeksforgeeks.org/problems/mother-vertex/1
 - [x] 6. `Minimum Swaps to Sort` https://practice.geeksforgeeks.org/problems/minimum-swaps/1
-- [ ] 7. `Minimize Malware Spread` https://leetcode.com/problems/minimize-malware-spread/
+- [x] 7. `Minimize Malware Spread` https://leetcode.com/problems/minimize-malware-spread/
 - [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
 - [ ] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
 
