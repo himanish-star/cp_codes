@@ -148,7 +148,7 @@
 - [x] 6. `Minimum Swaps to Sort` https://practice.geeksforgeeks.org/problems/minimum-swaps/1
 - [x] 7. `Minimize Malware Spread` https://leetcode.com/problems/minimize-malware-spread/
 - [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
-- [ ] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
+- [x] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
 
 #### Sun, Nov 03/2019
 - [ ] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
