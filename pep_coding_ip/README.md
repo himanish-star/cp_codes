@@ -154,7 +154,7 @@
 - [x] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
 - [x] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
 - [x] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
-- [ ] 4. `Sentence Similarity II` https://www.lintcode.com/problem/sentence-similarity-ii/description
+- [x] 4. `Sentence Similarity II` https://www.lintcode.com/problem/sentence-similarity-ii/description
 - [x] 5. `Loud and Rich` https://leetcode.com/problems/loud-and-rich
 - [x] 6. `Redundant Connection` https://leetcode.com/problems/redundant-connection
 - [x] 7. `Swim in Rising Water` https://leetcode.com/problems/swim-in-rising-water
