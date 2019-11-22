@@ -163,7 +163,7 @@
 
 #### Sat, Nov 09/2019
 - [x] 1. `Longest increasing path in a matrix` https://leetcode.com/problems/longest-increasing-path-in-a-matrix
-- [ ] 2. `Possible bipartition` https://leetcode.com/problems/possible-bipartition
+- [x] 2. `Possible bipartition` https://leetcode.com/problems/possible-bipartition
 - [ ] 3. `Regions cut by graph` https://leetcode.com/problems/regions-cut-by-slashes
 - [ ] 4. `Satisfiability of equality equation` https://leetcode.com/problems/satisfiability-of-equality-equations
 - [ ] 5. `Number of enclaves` https://leetcode.com/problems/number-of-enclaves
