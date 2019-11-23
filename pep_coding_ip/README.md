@@ -166,7 +166,7 @@
 - [x] 2. `Possible bipartition` https://leetcode.com/problems/possible-bipartition
 - [x] 3. `Regions cut by graph` https://leetcode.com/problems/regions-cut-by-slashes
 - [ ] 4. `Satisfiability of equality equation` https://leetcode.com/problems/satisfiability-of-equality-equations
-- [ ] 5. `Number of enclaves` https://leetcode.com/problems/number-of-enclaves
+- [x] 5. `Number of enclaves` https://leetcode.com/problems/number-of-enclaves
 - [ ] 6. `Tiles Game Concept`
 - [ ] 7. `Sliding puzzles` https://leetcode.com/problems/sliding-puzzle
 - [ ] 8. `Chef and reversing` https://www.codechef.com/AUG14/problems/REVERSE
