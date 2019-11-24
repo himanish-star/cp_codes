@@ -83,7 +83,7 @@
 - [ ] 7. `Target sum subset with minimum difference b/w 2 sets` https://leetcode.com/problems/partition-equal-subset-sum/
 
 #### Sun, Oct 06/2019
-- [ ] 1. `Triangulation` https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
+- [x] 1. `Triangulation` https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 - [ ] 2. `Max sum of 3 overlapping k sized arrays` https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 - [ ] 3. `Sub array having difference of 0s1s maximum` 
 - [x] 4. `Total No. of BSTs (Catalan)` https://leetcode.com/problems/unique-binary-search-trees/
