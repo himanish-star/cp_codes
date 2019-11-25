@@ -99,7 +99,7 @@
 #### Mon, Oct 07/2019
 - [ ] 1. `Remove boxes` https://leetcode.com/problems/remove-boxes/.
 - [ ] 2. `Largest zig zag sequence.`
-- [ ] 3. `Shuffle a playlist` https://leetcode.com/problems/number-of-music-playlists/.
+- [x] 3. `Shuffle a playlist` https://leetcode.com/problems/number-of-music-playlists/.
 - [ ] 4. `Binary tree cameras` https://leetcode.com/problems/binary-tree-cameras/.
 - [ ] 5. `Painter's partition.`
 
