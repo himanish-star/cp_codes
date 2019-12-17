@@ -100,7 +100,7 @@
 - [ ] 1. `Remove boxes` https://leetcode.com/problems/remove-boxes/.
 - [ ] 2. `Largest zig zag sequence.`
 - [x] 3. `Shuffle a playlist` https://leetcode.com/problems/number-of-music-playlists/.
-- [ ] 4. `Binary tree cameras` https://leetcode.com/problems/binary-tree-cameras/.
+- [x] 4. `Binary tree cameras` https://leetcode.com/problems/binary-tree-cameras/.
 - [ ] 5. `Painter's partition.`
 
 ## ✔️ Graph
