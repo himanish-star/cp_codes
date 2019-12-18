@@ -94,7 +94,7 @@
 - [x] 9. `Pairwise joining chains (2d LIS)` https://leetcode.com/problems/maximum-length-of-pair-chain/
 - [x] 10. `Minimum ASCII deletion to make 2 strings` = https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 - [ ] 11. `Longest continuous/consecutive path in matrix` https://www.geeksforgeeks.org/find-length-of-the-longest-consecutive-path-in-a-character-matrix/
-- [ ] 12. `A*1 and 1*n ki types of tile fittings.` https://leetcode.com/problems/domino-and-tromino-tiling/
+- [x] 12. `A*1 and 1*n ki types of tile fittings.` https://leetcode.com/problems/domino-and-tromino-tiling/
 
 #### Mon, Oct 07/2019
 - [ ] 1. `Remove boxes` https://leetcode.com/problems/remove-boxes/.
