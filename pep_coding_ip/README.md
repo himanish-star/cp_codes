@@ -90,7 +90,7 @@
 - [ ] 5. `Type of Handshakes (Catalan)` https://www.geeksforgeeks.org/applications-of-catalan-numbers/
 - [ ] 6. `Type of mountain ranges (Catalan)`
 - [ ] 7. `No. of parenthesis combinations (Catalan)` 
-- [ ] 8. `Number of ways to partition array in to k subsets` https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+- [x] 8. `Number of ways to partition array in to k subsets` https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 - [x] 9. `Pairwise joining chains (2d LIS)` https://leetcode.com/problems/maximum-length-of-pair-chain/
 - [x] 10. `Minimum ASCII deletion to make 2 strings` = https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 - [ ] 11. `Longest continuous/consecutive path in matrix` https://www.geeksforgeeks.org/find-length-of-the-longest-consecutive-path-in-a-character-matrix/
