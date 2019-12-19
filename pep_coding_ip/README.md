@@ -71,7 +71,7 @@
 - [x] 6. `Freedom Trial (entering code on circular lock)` https://leetcode.com/problems/freedom-trail/
 - [ ] 7. `Minimum steps to form a string` 
 - [x] 8. `Cherry Pickup` https://leetcode.com/problems/cherry-pickup/
-- [ ] 9. `LCS of 3 strings` https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
+- [x] 9. `LCS of 3 strings` https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
 
 #### Sat, Oct 05/2019
 - [x] 1. `Scramble Strings` https://leetcode.com/problems/scramble-string/
