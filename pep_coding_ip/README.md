@@ -66,7 +66,7 @@
 - [x] 1. `Longest Fibonacci Seq` https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 - [x] 2. `Letter Writer` https://practice.geeksforgeeks.org/problems/letter-writer/0
 - [ ] 3. `Knights Probability` https://leetcode.com/problems/knight-probability-in-chessboard/
-- [ ] 4. `Maximum product Sub array` https://leetcode.com/problems/maximum-product-subarray/
+- [x] 4. `Maximum product Sub array` https://leetcode.com/problems/maximum-product-subarray/
 - [ ] 5. `Largest Uncommon Subsequence` 
 - [x] 6. `Freedom Trial (entering code on circular lock)` https://leetcode.com/problems/freedom-trail/
 - [ ] 7. `Minimum steps to form a string` 
