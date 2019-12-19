@@ -68,7 +68,7 @@
 - [ ] 3. `Knights Probability` https://leetcode.com/problems/knight-probability-in-chessboard/
 - [ ] 4. `Maximum product Sub array` https://leetcode.com/problems/maximum-product-subarray/
 - [ ] 5. `Largest Uncommon Subsequence` 
-- [ ] 6. `Freedom Trial (entering code on circular lock)` https://leetcode.com/problems/freedom-trail/
+- [x] 6. `Freedom Trial (entering code on circular lock)` https://leetcode.com/problems/freedom-trail/
 - [ ] 7. `Minimum steps to form a string` 
 - [x] 8. `Cherry Pickup` https://leetcode.com/problems/cherry-pickup/
 - [ ] 9. `LCS of 3 strings` https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
