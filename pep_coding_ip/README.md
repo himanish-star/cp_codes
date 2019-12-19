@@ -70,7 +70,7 @@
 - [ ] 5. `Largest Uncommon Subsequence` 
 - [ ] 6. `Freedom Trial (entering code on circular lock)` https://leetcode.com/problems/freedom-trail/
 - [ ] 7. `Minimum steps to form a string` 
-- [ ] 8. `Cherry Pickup` https://leetcode.com/problems/cherry-pickup/
+- [x] 8. `Cherry Pickup` https://leetcode.com/problems/cherry-pickup/
 - [ ] 9. `LCS of 3 strings` https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
 
 #### Sat, Oct 05/2019
