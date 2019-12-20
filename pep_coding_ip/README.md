@@ -80,7 +80,7 @@
 - [x] 4. `Stock Buy Sell with Cooldown` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - [x] 5. `Stock Buy Sell with transaction fee 'k'` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 - [ ] 6. `Max Sum Alternating` https://www.geeksforgeeks.org/maximum-sum-alternating-subsequence-sum/
-- [ ] 7. `Target sum subset with minimum difference b/w 2 sets` https://leetcode.com/problems/partition-equal-subset-sum/
+- [x] 7. `Target sum subset with minimum difference b/w 2 sets` https://leetcode.com/problems/partition-equal-subset-sum/
 
 #### Sun, Oct 06/2019
 - [x] 1. `Triangulation` https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
