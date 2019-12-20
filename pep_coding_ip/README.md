@@ -28,7 +28,7 @@
 - [x] 5. `Min Palindromic Cuts` https://practice.geeksforgeeks.org/problems/palindromic-patitioning/0
 - [x] 6. `MCM` https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication/0
 - [x] 7. `Min Squares` https://practice.geeksforgeeks.org/problems/get-minimum-squares/0
-- [ ] 8. `Non Adjacent Sum` https://practice.geeksforgeeks.org/problems/stickler-theif/0
+- [x] 8. `Non Adjacent Sum` https://practice.geeksforgeeks.org/problems/stickler-theif/0
 - [ ] 9. `Max Sum Circular non adjacent` not available(do on your own)
 - [x] 10. `Count subsequences a^ib^jc^k` https://practice.geeksforgeeks.org/problems/count-subsequences-of-type-ai-bj-ck/0
 - [x] 11. `Min Flips1` https://practice.geeksforgeeks.org/problems/min-number-of-flips/0
