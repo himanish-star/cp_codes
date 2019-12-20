@@ -1,37 +1,32 @@
 class Solution {
 public:
-    int removeBoxes(vector<int>& boxes) {
-        int n=boxes.size();
-        vector<vector<int>> dp(n+1,vector<int> (n+1,0));
+    
+    int dfs(vector<vector<vector<int>>> &dp,vector<int> &boxes,int i,int j,int k) {
+        // remove alone the ith and all k boxes = k+1
+        if(i>j)
+            return 0;
         
-        for(int l=1;l<=n;l++) {
-            for(int i=0;i+l-1<n;i++) {
-                int j=i+l-1;
-                if(l==1) {
-                    dp[i][j]=1;
-                    continue;
-                }
-                
-                dp[i][j]=1+(dp[i][j-1]);
-                vector<int> occr;
-                for(int k=i;k<=j;k++) {
-                    if(boxes[j]==boxes[k])
-                        occr.push_back(k);
-                }
-                
-                if(occr.size()>1) {
-                    int ans=occr.size()*occr.size();
-                    for(int o=0;o<occr.size()-1;o++) {
-                        if(occr[o]+1<=occr[o+1]-1)
-                            ans+=dp[occr[o]+1][occr[o+1]-1];
-                    }
-                    
-                    if(i<=occr[0]-1)
-                        ans+=dp[i][occr[0]-1];
-                    dp[i][j]=max(dp[i][j],ans);
-                }
-            }
+        if(i==j)
+            return (k+1)*(k+1);
+        
+        if(dp[i][j][k])
+            return dp[i][j][k];
+        
+        int ans = dfs(dp,boxes,i+1,j,0) + (k+1)*(k+1);
+        
+        for(int e=j;e>=i;e--) {
+            if(boxes[e]==boxes[i])
+                ans = max(ans, dfs(dp,boxes,i,e-1,k+1) + dfs(dp,boxes,e+1,j,0));
         }
-        return dp[0][n-1];
+        
+        return dp[i][j][k] = ans;
+    }
+    
+    int removeBoxes(vector<int>& boxes) {
+        int n = boxes.size();
+        
+        vector<vector<vector<int>>> dp(n,vector<vector<int>> (n,vector<int> (n,0)));
+        
+        return dfs(dp,boxes,0,n-1,0);
     }
 };
