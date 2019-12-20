@@ -59,7 +59,7 @@
 - [x] 7. `Knight's Dialer` https://leetcode.com/problems/knight-dialer/
 - [x] 8. `High Effort Low effort` https://practice.geeksforgeeks.org/problems/high-effort-vs-low-effort/0
 - [x] 9. `Breaking integers into 2 or more such that product is max` https://leetcode.com/problems/integer-break/
-- [ ] 10. `Palindrome with minimum insertions in a string` https://leetcode.com/problems/shortest-palindrome/ 
+- [x] 10. `Palindrome with minimum insertions in a string` https://leetcode.com/problems/shortest-palindrome/ 
 - [x] 11. `Boolean Parenthesization` https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0
 
 #### Sun, Sep 29/2019
@@ -198,7 +198,7 @@
 - [ ] 6. `Modular exponentition` https://leetcode.com/problems/powx-n
 - [ ] 7. `Fibonacci number in O(logN)` https://leetcode.com/problems/fibonacci-number
 - [ ] 8. `Pour Water` https://leetcode.com/problems/pour-water
-- [ ] 9. `Shortest Palindrome` https://leetcode.com/problems/shortest-palindrome
+- [x] 9. `Shortest Palindrome` https://leetcode.com/problems/shortest-palindrome
 
 #### Sat, Nov 16/2019
 - [ ] 1. `K concatenation` https://www.codechef.com/JAN18/problems/KCON
