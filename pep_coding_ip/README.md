@@ -24,7 +24,7 @@
 - [x] 1. `Count distinct palindromic subsequences` https://leetcode.com/problems/count-different-palindromic-subsequences/
 - [x] 2. `Longest palindromic substring` https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0
 - [x] 3. `Count Palindromic Substrings` https://practice.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string/0
-- [ ] 4. `Edit distance` https://leetcode.com/problems/edit-distance/
+- [x] 4. `Edit distance` https://leetcode.com/problems/edit-distance/
 - [x] 5. `Min Palindromic Cuts` https://practice.geeksforgeeks.org/problems/palindromic-patitioning/0
 - [x] 6. `MCM` https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication/0
 - [x] 7. `Min Squares` https://practice.geeksforgeeks.org/problems/get-minimum-squares/0
