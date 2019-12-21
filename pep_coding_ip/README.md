@@ -168,7 +168,7 @@
 - [x] 4. `Satisfiability of equality equation` https://leetcode.com/problems/satisfiability-of-equality-equations
 - [x] 5. `Number of enclaves` https://leetcode.com/problems/number-of-enclaves
 - [ ] 6. `Tiles Game Concept`
-- [ ] 7. `Sliding puzzles` https://leetcode.com/problems/sliding-puzzle
+- [x] 7. `Sliding puzzles` https://leetcode.com/problems/sliding-puzzle
 - [ ] 8. `Chef and reversing` https://www.codechef.com/AUG14/problems/REVERSE
 - [ ] 9. `Coins and games GFG pirate puzzle`
 
