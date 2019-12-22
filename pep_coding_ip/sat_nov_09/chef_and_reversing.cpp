@@ -2,53 +2,70 @@
 
 using namespace std;
 
-int dfs(int s,vector<int> adj[],vector<int> adjRev[],vector<int> &dp,int N,vector<int> &vis) {
-    if(dp[s])
-        return dp[s];
-    if(s==N-1)
-        return dp[s]=0;
+struct Edge {
+    int u;
+    int v;
+    int w;
+};
 
-    vis[s]=1;
-    dp[s]=INT_MAX;
-    for(int i=0;i<adj[s].size();i++) {
-        if(!vis[adj[s][i]]) {
-            int updVal=dfs(adj[s][i],adj,adjRev,dp,N,vis);
-            if(updVal!=INT_MAX)
-                dp[s]=min(dp[s],updVal);
+void dijkstra(int s,vector<vector<Edge>> &adj,int N,set<int> &seen,priority_queue<pair<int,int>,vector<pair<int,int>>, greater<pair<int,int>>> &pq,vector<int> &dist) {
+    dist[s]=0;
+    pq.push(make_pair(0,s));
+    
+    while(pq.size()) {
+        pair<int,int> top=pq.top();
+        pq.pop();
+
+        // cout<<"vselected: "<<top.second<<endl;
+
+        for(int i=0;i<adj[top.second].size();i++) {
+            Edge e=adj[top.second][i];
+            int v=e.v;
+            int w=e.w;
+
+            if(dist[top.second]+w<dist[v]) {
+                // cout<<"update: "<<v<<", from: "<<dist[v]<<" --> to: "<<dist[top.second]+w<<endl;
+                dist[v]=dist[top.second]+w;
+                seen.insert(v);
+                pq.push(make_pair(dist[v],v));
+            }
         }
     }
-
-    for(int i=0;i<adjRev[s].size();i++) {
-        if(!vis[adjRev[s][i]]) {
-            int updVal=dfs(adjRev[s][i],adj,adjRev,dp,N,vis);
-            if(updVal!=INT_MAX)
-                dp[s]=min(dp[s],1+updVal);
-        }
-    }
-    return dp[s];
 }
 
 int main() {
     int N,M;
     cin>>N>>M;
 
-    vector<int> adj[N],adjRev[N];
+    vector<vector<Edge>> adj(N+1);
+
     for(int i=0;i<M;i++) {
         int src,dest;
         cin>>src>>dest;
-        src--,dest--;
-        adj[src].push_back(dest);
-        adjRev[dest].push_back(src);
+        
+        if(src==dest)
+            continue;
+
+        adj[src].push_back(Edge{src,dest,0});
+        adj[dest].push_back(Edge{dest,src,1});
     }
 
-    vector<int> dp(N,0);
-    vector<int> vis(N,0);
-    int ans=dfs(0,adj,adjRev,dp,N,vis);
-    if(ans==INT_MAX)
-        ans=-1;
-    cout<<ans<<endl;
-    // for(int i=0;i<N;i++)
-    //     cout<<dp[i]<<" ";
+    set<int> seen;
+    priority_queue<pair<int,int>,vector<pair<int,int>>, greater<pair<int,int>>> pq;
+    vector<int> dist(N+1,INT_MAX);
+    
+    dijkstra(1,adj,N,seen,pq,dist);
+    
+    // for(int i=0;i<=N;i++)
+    //     cout<<dist[i]<<" ";
     // cout<<endl;
+    
+    if(dist[N]==INT_MAX)
+        cout<<-1<<endl;
+    else
+    {
+        cout<<dist[N]<<endl;
+    }
+    
     return 0;
 }

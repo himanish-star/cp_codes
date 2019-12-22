@@ -169,7 +169,7 @@
 - [x] 5. `Number of enclaves` https://leetcode.com/problems/number-of-enclaves
 - [ ] 6. `Tiles Game Concept`
 - [x] 7. `Sliding puzzles` https://leetcode.com/problems/sliding-puzzle
-- [ ] 8. `Chef and reversing` https://www.codechef.com/AUG14/problems/REVERSE
+- [x] 8. `Chef and reversing` https://www.codechef.com/AUG14/problems/REVERSE
 - [ ] 9. `Coins and games GFG pirate puzzle`
 
 #### Sun, Nov 10/2019
