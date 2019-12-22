@@ -114,7 +114,7 @@
 - [x] 7. `Kahn's Algo` https://practice.geeksforgeeks.org/problems/topological-sort/1
 
 #### Sun, Oct 13/2019
-- [ ] 1. `Dijkstra`
+- [x] 1. `Dijkstra` https://practice.geeksforgeeks.org/problems/shortest-path-from-1-to-n/0
 - [ ] 2. `Bellman Ford`
 - [ ] 3. `Floyd Warshall`
 - [x] 4. `Kosaraju` https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
