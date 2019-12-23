@@ -176,7 +176,7 @@
 - [ ] 1. `Find the maximum flow` https://www.geeksforgeeks.org/max-flow-problem-introduction/
 - [ ] 2. `Ford fulkerson` https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/
 - [ ] 3. `Maximum bipartite matching` https://www.geeksforgeeks.org/maximum-bipartite-matching/
-- [ ] 4. `Trapping rain water` https://leetcode.com/problems/trapping-rain-water-ii
+- [x] 4. `Trapping rain water` https://leetcode.com/problems/trapping-rain-water-ii
 
 ## ✔️ Arrays & Strings
 #### Mon, Nov 11/2019
