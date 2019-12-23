@@ -209,7 +209,7 @@
 - [ ] 6. `Sort array by parity` https://leetcode.com/problems/sort-array-by-parity/
 - [x] 7. `Reveal cards in increasing order` https://leetcode.com/problems/reveal-cards-in-increasing-order/
 - [ ] 8. `Pair sum array`	https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
-- [ ] 9. `Pair diff array`	https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
+- [x] 9. `Pair diff array`	https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
 - [x] 10. `Boats to save people` https://leetcode.com/problems/boats-to-save-people/
 
 #### Sun, Nov 17/2019
