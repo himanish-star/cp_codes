@@ -181,7 +181,7 @@
 ## ✔️ Arrays & Strings
 #### Mon, Nov 11/2019
 - [x] 1. `Product of array except self` https://leetcode.com/problems/product-of-array-except-self
-- [ ] 2. `Rotate to right by k` https://leetcode.com/problems/rotate-array
+- [x] 2. `Rotate to right by k` https://leetcode.com/problems/rotate-array
 - [ ] 3. `Max chunks to make it sorted` https://leetcode.com/problems/max-chunks-to-make-sorted-ii
 - [ ] 4. `Next greater integer 3` https://leetcode.com/problems/next-greater-element-iii
 - [ ] 5. `Magic squares in grid` https://leetcode.com/problems/magic-squares-in-grid
