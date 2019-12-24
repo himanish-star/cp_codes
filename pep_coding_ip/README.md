@@ -205,7 +205,7 @@
 - [x] 2. `sum of even numbers after queries` https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 - [x] 3. `Container with most water` https://leetcode.com/problems/container-with-most-water/ 
 - [ ] 4. `Binary Array Sorting` https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
-- [ ] 5. `Segregate 0s 1s 2s`	https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+- [x] 5. `Segregate 0s 1s 2s`	https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
 - [x] 6. `Sort array by parity` https://leetcode.com/problems/sort-array-by-parity/
 - [x] 7. `Reveal cards in increasing order` https://leetcode.com/problems/reveal-cards-in-increasing-order/
 - [x] 8. `Pair sum array`	https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
