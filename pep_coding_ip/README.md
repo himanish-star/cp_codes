@@ -197,7 +197,7 @@
 - [ ] 5. `Orderly queue` https://leetcode.com/problems/orderly-queue
 - [ ] 6. `Modular exponentition` https://leetcode.com/problems/powx-n
 - [ ] 7. `Fibonacci number in O(logN)` https://leetcode.com/problems/fibonacci-number
-- [ ] 8. `Pour Water` https://leetcode.com/problems/pour-water
+- [x] 8. `Pour Water` https://www.lintcode.com/problem/pour-water/description
 - [x] 9. `Shortest Palindrome` https://leetcode.com/problems/shortest-palindrome
 
 #### Sat, Nov 16/2019
