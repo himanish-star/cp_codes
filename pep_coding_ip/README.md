@@ -205,11 +205,50 @@
 - [x] 2. `sum of even numbers after queries` https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 - [x] 3. `Container with most water` https://leetcode.com/problems/container-with-most-water/ 
 - [x] 4. `Binary Array Sorting` https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
-- [x] 5. `Segregate 0s 1s 2s`	https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+- [x] 5. `Segregate 0s 1s 2s` https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
 - [x] 6. `Sort array by parity` https://leetcode.com/problems/sort-array-by-parity/
 - [x] 7. `Reveal cards in increasing order` https://leetcode.com/problems/reveal-cards-in-increasing-order/
-- [x] 8. `Pair sum array`	https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
-- [x] 9. `Pair diff array`	https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
+- [x] 8. `Pair sum array` https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
+- [x] 9. `Pair diff array` https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
 - [x] 10. `Boats to save people` https://leetcode.com/problems/boats-to-save-people/
 
 #### Sun, Nov 17/2019
+- [ ] 1. `No. of Platform`s https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+- [ ] 2. `Sieve of Eratosthenes` https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+- [ ] 3. `Prime Generator` https://www.spoj.com/problems/PRIME1/
+- [ ] 4. `Maximum Swaps` https://leetcode.com/problems/maximum-swap
+- [ ] 5. `Maximum Consecutive ones II` https://www.lintcode.com/problem/max-consecutive-ones-ii/
+- [ ] 6. `Similar RGB color` https://www.lintcode.com/problem/similar-rgb-color/
+- [ ] 7. `Optimal division` https://leetcode.com/problems/optimal-division
+- [ ] 8. `Number of jumps to reach X on a line` https://www.geeksforgeeks.org/find-the-number-of-jumps-to-reach-x-in-the-number-line-from-zero/
+
+## ✔️ Stacks & Queues
+#### Sat, Dec 21/2019
+- [ ] `Next Greater Element on right Next Greater`
+- [ ] `Next Greater Element 2`
+- [ ] `Daily Temperaturess`
+- [ ] `maximum difference between left and right`
+- [ ] `Stock Span Problem`
+
+#### Sun, Dec 22/2019
+- [ ] `Largest Rectangular Area Histogram`
+- [ ] `maximu size binary matrix containing 1`
+- [ ] `Valid Parentheses`
+- [ ] `Length of longest valid substring`
+- [ ] `Count of duplicate Parentheses`
+- [ ] `Decode String`
+- [ ] `Minimum Number of bracket reversal`
+- [ ] `Minimum Add To make Parentheses Valid`
+- [ ] `Print Bracket Number`
+- [ ] `Score Of String`
+- [ ] `Asteroid Collision`
+- [ ] `Backspace String Compare`
+- [ ] `Print Binary Number`
+
+#### Wed, Dec 25/2019
+- [ ] `Longest Unbalanced Subsequence`
+- [ ] `Adapters`
+- [ ] `Remove K digits From number`
+- [ ] `Car fleet`
+- [ ] `First negative Integer in k sized window`
+- [ ] `Addition BINADD`
