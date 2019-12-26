@@ -191,7 +191,7 @@
 
 #### Tue, Nov 12/2019
 - [x] 1. `Remove duplicates from sorted array` https://leetcode.com/problems/remove-duplicates-from-sorted-array
-- [ ] 2. `Maximum subarray` https://leetcode.com/problems/maximum-subarray
+- [x] 2. `Maximum subarray` https://leetcode.com/problems/maximum-subarray
 - [x] 3. `K- concatetaion` https://www.codechef.com/JAN18/problems/KCON
 - [ ] 4. `Squares of sorted array` https://leetcode.com/problems/squares-of-a-sorted-array
 - [ ] 5. `Orderly queue` https://leetcode.com/problems/orderly-queue
