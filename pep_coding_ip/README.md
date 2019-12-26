@@ -192,7 +192,7 @@
 #### Tue, Nov 12/2019
 - [x] 1. `Remove duplicates from sorted array` https://leetcode.com/problems/remove-duplicates-from-sorted-array
 - [ ] 2. `Maximum subarray` https://leetcode.com/problems/maximum-subarray
-- [ ] 3. `K- concatetaion` https://www.codechef.com/JAN18/problems/KCON
+- [x] 3. `K- concatetaion` https://www.codechef.com/JAN18/problems/KCON
 - [ ] 4. `Squares of sorted array` https://leetcode.com/problems/squares-of-a-sorted-array
 - [ ] 5. `Orderly queue` https://leetcode.com/problems/orderly-queue
 - [ ] 6. `Modular exponentition` https://leetcode.com/problems/powx-n
@@ -201,7 +201,7 @@
 - [x] 9. `Shortest Palindrome` https://leetcode.com/problems/shortest-palindrome
 
 #### Sat, Nov 16/2019
-- [ ] 1. `K concatenation` https://www.codechef.com/JAN18/problems/KCON
+- [x] 1. `K concatenation` https://www.codechef.com/JAN18/problems/KCON
 - [x] 2. `sum of even numbers after queries` https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 - [x] 3. `Container with most water` https://leetcode.com/problems/container-with-most-water/ 
 - [x] 4. `Binary Array Sorting` https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
