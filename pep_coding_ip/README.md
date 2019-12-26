@@ -193,7 +193,7 @@
 - [x] 1. `Remove duplicates from sorted array` https://leetcode.com/problems/remove-duplicates-from-sorted-array
 - [x] 2. `Maximum subarray` https://leetcode.com/problems/maximum-subarray
 - [x] 3. `K- concatetaion` https://www.codechef.com/JAN18/problems/KCON
-- [ ] 4. `Squares of sorted array` https://leetcode.com/problems/squares-of-a-sorted-array
+- [x] 4. `Squares of sorted array` https://leetcode.com/problems/squares-of-a-sorted-array
 - [ ] 5. `Orderly queue` https://leetcode.com/problems/orderly-queue
 - [ ] 6. `Modular exponentition` https://leetcode.com/problems/powx-n
 - [x] 7. `Fibonacci number in O(logN)` https://leetcode.com/problems/fibonacci-number
