@@ -196,7 +196,7 @@
 - [ ] 4. `Squares of sorted array` https://leetcode.com/problems/squares-of-a-sorted-array
 - [ ] 5. `Orderly queue` https://leetcode.com/problems/orderly-queue
 - [ ] 6. `Modular exponentition` https://leetcode.com/problems/powx-n
-- [ ] 7. `Fibonacci number in O(logN)` https://leetcode.com/problems/fibonacci-number
+- [x] 7. `Fibonacci number in O(logN)` https://leetcode.com/problems/fibonacci-number
 - [x] 8. `Pour Water` https://www.lintcode.com/problem/pour-water/description
 - [x] 9. `Shortest Palindrome` https://leetcode.com/problems/shortest-palindrome
 
