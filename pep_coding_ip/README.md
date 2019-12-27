@@ -216,7 +216,7 @@
 - [ ] 1. `No. of Platform`s https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 - [ ] 2. `Sieve of Eratosthenes` https://www.geeksforgeeks.org/sieve-of-eratosthenes/
 - [ ] 3. `Prime Generator` https://www.spoj.com/problems/PRIME1/
-- [ ] 4. `Maximum Swaps` https://leetcode.com/problems/maximum-swap
+- [x] 4. `Maximum Swaps` https://leetcode.com/problems/maximum-swap
 - [ ] 5. `Maximum Consecutive ones II` https://www.lintcode.com/problem/max-consecutive-ones-ii/
 - [ ] 6. `Similar RGB color` https://www.lintcode.com/problem/similar-rgb-color/
 - [ ] 7. `Optimal division` https://leetcode.com/problems/optimal-division
