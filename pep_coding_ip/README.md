@@ -186,7 +186,7 @@
 - [x] 4. `Next greater integer 3` https://leetcode.com/problems/next-greater-element-iii
 - [x] 5. `Magic squares in grid` https://leetcode.com/problems/magic-squares-in-grid
 - [x] 6. `Long pressed key` https://leetcode.com/problems/long-pressed-name
-- [ ] 7. `Max range queries` https://www.codechef.com/COOK103A/problems/MAXREMOV
+- [x] 7. `Max range queries` https://www.codechef.com/COOK103A/problems/MAXREMOV
 - [ ] 8. `Range addition` https://leetcode.com/problems/range-addition https://leetcode.com/problems/range-addition-ii
 
 #### Tue, Nov 12/2019
