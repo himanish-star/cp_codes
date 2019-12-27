@@ -187,7 +187,7 @@
 - [x] 5. `Magic squares in grid` https://leetcode.com/problems/magic-squares-in-grid
 - [x] 6. `Long pressed key` https://leetcode.com/problems/long-pressed-name
 - [x] 7. `Max range queries` https://www.codechef.com/COOK103A/problems/MAXREMOV
-- [ ] 8. `Range addition` https://leetcode.com/problems/range-addition https://leetcode.com/problems/range-addition-ii
+- [x] 8. `Range addition` https://leetcode.com/problems/range-addition https://leetcode.com/problems/range-addition-ii
 
 #### Tue, Nov 12/2019
 - [x] 1. `Remove duplicates from sorted array` https://leetcode.com/problems/remove-duplicates-from-sorted-array
