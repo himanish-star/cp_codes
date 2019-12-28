@@ -218,7 +218,7 @@
 - [ ] 3. `Prime Generator` https://www.spoj.com/problems/PRIME1/
 - [x] 4. `Maximum Swaps` https://leetcode.com/problems/maximum-swap
 - [x] 5. `Maximum Consecutive ones II` https://www.lintcode.com/problem/max-consecutive-ones-ii/
-- [ ] 6. `Similar RGB color` https://www.lintcode.com/problem/similar-rgb-color/
+- [x] 6. `Similar RGB color` https://www.lintcode.com/problem/similar-rgb-color/
 - [x] 7. `Optimal division` https://leetcode.com/problems/optimal-division
 - [ ] 8. `Number of jumps to reach X on a line` https://www.geeksforgeeks.org/find-the-number-of-jumps-to-reach-x-in-the-number-line-from-zero/
 
