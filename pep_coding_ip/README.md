@@ -214,7 +214,7 @@
 
 #### Sun, Nov 17/2019
 - [ ] 1. `No. of Platform`s https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
-- [ ] 2. `Sieve of Eratosthenes` https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+- [x] 2. `Sieve of Eratosthenes` https://www.geeksforgeeks.org/sieve-of-eratosthenes/
 - [ ] 3. `Prime Generator` https://www.spoj.com/problems/PRIME1/
 - [x] 4. `Maximum Swaps` https://leetcode.com/problems/maximum-swap
 - [x] 5. `Maximum Consecutive ones II` https://www.lintcode.com/problem/max-consecutive-ones-ii/
