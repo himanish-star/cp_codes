@@ -215,7 +215,7 @@
 #### Sun, Nov 17/2019
 - [ ] 1. `No. of Platform`s https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 - [x] 2. `Sieve of Eratosthenes` https://www.geeksforgeeks.org/sieve-of-eratosthenes/
-- [ ] 3. `Prime Generator` https://www.spoj.com/problems/PRIME1/
+- [x] 3. `Prime Generator` https://www.spoj.com/problems/PRIME1/
 - [x] 4. `Maximum Swaps` https://leetcode.com/problems/maximum-swap
 - [x] 5. `Maximum Consecutive ones II` https://www.lintcode.com/problem/max-consecutive-ones-ii/
 - [x] 6. `Similar RGB color` https://www.lintcode.com/problem/similar-rgb-color/
