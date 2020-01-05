@@ -44,20 +44,64 @@ ll modDivide(ll a, ll b, ll m)
        return (inv * a) % m; 
 } 
 
+void fastscan(int &number) 
+{ 
+    //variable to indicate sign of input number 
+    bool negative = false; 
+    register ll c; 
+  
+    number = 0; 
+  
+    // extract current character from buffer 
+    c = getchar(); 
+    if (c=='-') 
+    { 
+        // number is negative 
+        negative = true; 
+  
+        // extract the next character from the buffer 
+        c = getchar(); 
+    } 
+  
+    // Keep on extracting characters if they are integers 
+    // i.e ASCII Value lies from '0'(48) to '9' (57) 
+    for (; (c>47 && c<58); c=getchar()) 
+        number = number *10 + c - 48; 
+  
+    // if scanned input has a negative sign, negate the 
+    // value of the input number 
+    if (negative) 
+        number *= -1; 
+}
+
+//factorial
+int fact=1;
+unordered_map<int,int> mp;
+
 int main() {
+    
+    // ios_base::sync_with_stdio(false);
+    // cin.tie(NULL);
+    
     int t;
-    cin>>t;
+    fastscan(t);
+
+    for(int i=1;i<=100000;i++) {
+        fact=((ll)fact*i)%mod;
+        mp[i]=fact;
+    }
+    mp[0]=1;
 
     while(t--) {
-        ll n;
-        cin>>n;
+        int n;
+        fastscan(n);
 
-        vector<ll> x(2*n);
+        vector<int> x(2*n);
         unordered_map<ll,ll> occr;
         ll gsum=0;
         ll allZero=0;
         for(ll i=0;i<2*n;i++) {
-            cin>>x[i];
+            fastscan(x[i]);
             allZero+=(x[i]==0);
             gsum+=x[i];
             occr[x[i]]++;
@@ -67,7 +111,7 @@ int main() {
         ll nop=0, ans=1;
 
         if(allZero==2*n) {
-            cout<<1<<endl;
+            printf("1\n");
             continue;
         }
 
@@ -100,8 +144,8 @@ int main() {
                 nop++;
                 ans=(ans*2)%mod;
                 
-                ll v1=min(x[i],tsum-x[i]);
-                ll v2=max(x[i],tsum-x[i]);
+                ll v1=min((ll)x[i],tsum-x[i]);
+                ll v2=max((ll)x[i],tsum-x[i]);
                 // unq.insert(make_pair(v1,v2));
                 cnts[make_pair(v1,v2)]++;
                 continue;
@@ -111,31 +155,22 @@ int main() {
 
         // printf("nop -> %lld\n",nop);
         if(nop!=n+1) {
-            cout<<0<<endl;
+            printf("0\n");
             continue;
         }
-
-        //factorial
-        ll fact=1;
-        unordered_map<ll,ll> mp;
-        for(ll i=1;i<=nop-2;i++) {
-            fact=(fact*i)%mod;
-            mp[i]=fact;
-        }
         
-        ans=(ans*fact)%mod;
+        ans=(ans*mp[nop-2])%mod;
 
+        ll divisor=1;
         for(map<pair<ll,ll>,ll>::iterator it=cnts.begin();it!=cnts.end();it++) {
             // ll v1=it->first;
             ll v2=it->second;
             // cout<<"mp"<<mp[cnts[make_pair(v1,v2)]]<<endl;
-            ans=modDivide(ans,mp[v2],mod);
-            
-            if(ans<0)
-                ans+=mod;
+            divisor=(divisor*mp[v2])%mod;
         }
 
-        cout<<ans<<endl;
+        ans=modDivide(ans,divisor,mod);
+        printf("%lld\n",ans);
     }
     return 0;
 }
