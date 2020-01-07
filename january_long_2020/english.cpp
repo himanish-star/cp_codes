@@ -4,13 +4,15 @@ using namespace std;
 
 typedef long long ll;
 
-const int ALPHABET_SIZE = 26; 
+const ll ALPHABET_SIZE = 26; 
 
 struct TrieNode 
 { 
     TrieNode *children[ALPHABET_SIZE];
-    int nos;
-    int depth;
+    vector<ll> idxs;
+    ll nos;
+    ll childs;
+    ll depth;
     bool isEndOfWord; 
 }; 
   
@@ -21,8 +23,9 @@ TrieNode* getNode(void)
     pNode->isEndOfWord = false; 
     pNode->nos=0;
     pNode->depth=0;
+    pNode->childs=0;
   
-    for (int i = 0; i < ALPHABET_SIZE; i++) 
+    for (ll i = 0; i < ALPHABET_SIZE; i++) 
         pNode->children[i] = NULL; 
   
     return pNode; 
@@ -31,48 +34,76 @@ TrieNode* getNode(void)
 void insert(TrieNode *root, string key) 
 { 
     TrieNode *pCrawl = root;
-    int depth=0;
-    printf("inserting key -> %s\n",key.c_str());
+    ll depth=0;
+    // prllf("inserting key -> %s\n",key.c_str());
     // pCrawl->nos++;
   
-    printf("node -> (%d,%d)\n",pCrawl->nos,pCrawl->depth);
-    for (int i = 0; i < key.length(); i++) 
+    // prllf("node -> (%d,%d)\n",pCrawl->nos,pCrawl->depth);
+    for (ll i = 0; i < key.length(); i++) 
     { 
-        int index = key[i] - 'a'; 
-        if (!pCrawl->children[index]) 
+        ll index = key[i] - 'a'; 
+
+        if (!pCrawl->children[index]) { 
             pCrawl->children[index] = getNode(); 
+            pCrawl->childs++;
+            pCrawl->idxs.push_back(index);
+        }
   
+        // prllf("node -> (%d,%d) and child=%d\n",pCrawl->nos,pCrawl->depth,pCrawl->childs);
+       
         pCrawl = pCrawl->children[index]; 
         pCrawl->depth=++depth;
         pCrawl->nos++;
-        printf("node -> (%d,%d)\n",pCrawl->nos,pCrawl->depth);
     } 
   
+    // prllf("node -> (%d,%d) and child=%d\n",pCrawl->nos,pCrawl->depth,pCrawl->childs);
     pCrawl->isEndOfWord = true; 
 } 
-  
-bool search(TrieNode *root, string key) 
-{ 
-    TrieNode *pCrawl = root; 
-  
-    for (int i = 0; i < key.length(); i++) 
-    { 
-        int index = key[i] - 'a'; 
-        if (!pCrawl->children[index]) 
-            return false; 
-  
-        pCrawl = pCrawl->children[index]; 
-    } 
-  
-    return (pCrawl != NULL && pCrawl->isEndOfWord); 
-} 
+
+ll compute(TrieNode *node) {
+    if(node->childs==1 && node->isEndOfWord==false) {
+        return compute(node->children[node->idxs[0]]);
+    } else {
+        vector<ll> nextIdxs;
+        ll oddsRemain=0,evensRemain=0;
+        for(ll i=0;i<node->idxs.size();i++) {
+            if(node->children[node->idxs[i]]->nos%2==0) {
+                nextIdxs.push_back(node->idxs[i]);
+                evensRemain+=node->children[node->idxs[i]]->nos;
+            } else {
+                oddsRemain++;
+                evensRemain+=node->children[node->idxs[i]]->nos-1;
+                if(node->children[node->idxs[i]]->nos>=3) {
+                    nextIdxs.push_back(node->idxs[i]);
+                }
+            }
+        }
+
+        ll ans=(floor(oddsRemain/2))*pow(node->depth,2);
+
+        if(node->isEndOfWord==true) {
+            if(oddsRemain%2==0) {
+                ll tempRes=node->nos-oddsRemain-evensRemain;
+                ans+=floor((tempRes)/2)*pow(node->depth,2);
+            } else {
+                ll tempRes=node->nos-oddsRemain-evensRemain+1;
+                ans+=floor((tempRes)/2)*pow(node->depth,2);
+            }
+        }
+
+        for(ll i=0;i<nextIdxs.size();i++) {
+            ans+=compute(node->children[nextIdxs[i]]);
+        }
+        return ans;
+    }
+}
 
 int main() {
-    int t;
+    ll t;
     cin>>t;
 
     while(t--) {
-        int n;
+        ll n;
         cin>>n;
 
         string keys[n];
@@ -80,14 +111,22 @@ int main() {
         root->nos=0;
         root->depth=0;
 
-        for(int i=0;i<n;i++) {
+        for(ll i=0;i<n;i++) {
             cin>>keys[i];
         }
         
-        for(int i=0;i<n;i++) {
-            cout<<keys[i]<<endl;
+        for(ll i=0;i<n;i++) {
+            // cout<<keys[i]<<endl;
             insert(root,keys[i]);
         }
+        
+        ll ans=0;
+        for(ll i=0;i<26;i++) {
+            if(root->children[i]) {
+                ans+=compute(root->children[i]);
+            }
+        }
+        cout<<ans<<endl;
     }
     return 0;
 }
