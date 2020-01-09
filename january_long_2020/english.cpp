@@ -11,9 +11,11 @@ struct TrieNode
     TrieNode *children[ALPHABET_SIZE];
     vector<ll> idxs;
     ll nos;
+    ll nops;
     ll childs;
     ll depth;
     bool isEndOfWord; 
+    bool ispalin;
 }; 
   
 TrieNode* getNode(void) 
@@ -21,9 +23,11 @@ TrieNode* getNode(void)
     TrieNode *pNode =  new TrieNode; 
   
     pNode->isEndOfWord = false; 
+    pNode->ispalin = false; 
     pNode->nos=0;
     pNode->depth=0;
     pNode->childs=0;
+    pNode->nops=0;
   
     for (ll i = 0; i < ALPHABET_SIZE; i++) 
         pNode->children[i] = NULL; 
@@ -31,7 +35,7 @@ TrieNode* getNode(void)
     return pNode; 
 } 
   
-void insert(TrieNode *root, string key) 
+void insert(TrieNode *root, string key,bool isPalin) 
 { 
     TrieNode *pCrawl = root;
     ll depth=0;
@@ -54,10 +58,12 @@ void insert(TrieNode *root, string key)
         pCrawl = pCrawl->children[index]; 
         pCrawl->depth=++depth;
         pCrawl->nos++;
+        pCrawl->nops+=(isPalin==true);
     } 
   
     // printf("node -> (%d,%d) and child=%d\n",pCrawl->nos,pCrawl->depth,pCrawl->childs);
-    pCrawl->isEndOfWord = true; 
+    pCrawl->isEndOfWord = true;
+    pCrawl->ispalin = true; 
 } 
 
 ll computePalin(TrieNode *node) {
@@ -103,13 +109,18 @@ ll compute(TrieNode *node) {
         return compute(node->children[node->idxs[0]]);
     } else {
         vector<ll> nextIdxs;
-        ll oddsRemain=0,evensRemain=0;
+        ll oddsRemainPalin=0,oddsRemain=0,oddsRemainNonPalin=0,evensRemain=0;
         for(ll i=0;i<node->idxs.size();i++) {
             if(node->children[node->idxs[i]]->nos%2==0) {
                 nextIdxs.push_back(node->idxs[i]);
                 evensRemain+=node->children[node->idxs[i]]->nos;
             } else {
                 oddsRemain++;
+                if(node->children[node->idxs[i]]->nops%2==1) {
+                    oddsRemainPalin++;
+                } else {
+                    oddsRemainNonPalin++;
+                }
                 evensRemain+=node->children[node->idxs[i]]->nos-1;
                 if(node->children[node->idxs[i]]->nos>=3) {
                     nextIdxs.push_back(node->idxs[i]);
@@ -117,15 +128,28 @@ ll compute(TrieNode *node) {
             }
         }
 
-        ll ans=(floor(oddsRemain/2))*pow(floor(node->depth/2),2);
+        ll ans=(floor(oddsRemainNonPalin/2))*pow(floor(node->depth/2),2);
+        ans+=(floor(oddsRemainPalin/2))*pow(floor(node->depth),2);
 
+        bool allMerged=false;
+        if(oddsRemainPalin%2!=0 && oddsRemainNonPalin%2!=0 && node->depth>1) {
+            ans+=pow(floor(node->depth/2),2);
+            allMerged=true;
+        } else if(oddsRemainPalin%2==0 && oddsRemainNonPalin%2==0) {
+            allMerged=true;
+        }
+
+        // printf("or=%d, orp=%d, ornp=%d\n",oddsRemain,oddsRemainPalin,oddsRemainNonPalin);
         if(node->isEndOfWord==true) {
-            if(oddsRemain%2==0) {
+            if(oddsRemain%2==0 && allMerged) {
                 ll tempRes=node->nos-oddsRemain-evensRemain;
                 ans+=floor((tempRes)/2)*pow(floor(node->depth),2);
-            } else {
+            } else if(oddsRemainPalin%2!=0) {
                 ll tempRes=node->nos-oddsRemain-evensRemain+1;
                 ans+=floor((tempRes)/2)*pow(floor(node->depth),2);
+            } else if(oddsRemainNonPalin%2!=0) {
+                ll tempRes=node->nos-oddsRemain-evensRemain+1;
+                ans+=floor((tempRes)/2)*pow(floor(node->depth/2),2);
             }
         }
 
@@ -174,8 +198,8 @@ int main() {
                 }
             }
             nopalin+=(ispalin==true);
-            insert(root,temp);
-            insert(palinroot,keys[i]);
+            insert(root,temp,ispalin);
+            insert(palinroot,keys[i],ispalin);
         }
         
         ll ans=0;
