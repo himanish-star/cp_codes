@@ -4,6 +4,60 @@ using namespace std;
 
 typedef long long ll;
 
+bool isPower(ll num) {
+    return ceil(log2(num))==floor(log2(num));
+}
+
+void fillMtrx1(ll ele1,ll ele2,vector<vector<ll>> &mtrx,vector<pair<ll,ll>> &pairs) {
+    mtrx[pairs[0].first][pairs[0].second]=ele1;
+    mtrx[pairs[pairs.size()-1].first][pairs[pairs.size()-1].second]=ele1;
+
+    bool turn=true;
+    for(ll i=1;i<pairs.size()-1;i+=2) {
+        ll ele;
+        if(turn) {
+            ele=ele2;
+        } else {
+            ele=ele1;
+        }
+        mtrx[pairs[i].first][pairs[i].second]=ele;
+        mtrx[pairs[i+1].first][pairs[i+1].second]=ele;
+        turn=!turn;
+    }
+}
+
+void fillMtrx2(ll ele1,ll ele2,vector<vector<ll>> &mtrx,vector<pair<ll,ll>> &pairs) {
+    bool turn=true;
+    for(ll i=0;i<pairs.size();i+=2) {
+        ll ele;
+        if(turn) {
+            ele=ele2;
+        } else {
+            ele=ele1;
+        }
+        mtrx[pairs[i].first][pairs[i].second]=ele;
+        mtrx[pairs[i+1].first][pairs[i+1].second]=ele;
+        turn=!turn;
+    }
+}
+
+void fillMtrx3(ll ele1,ll ele2,vector<vector<ll>> &mtrx,vector<pair<ll,ll>> &pairs,ll cnt) {
+    bool turn=true;
+    for(ll i=0;i<pairs.size();i+=cnt) {
+        ll ele;
+        if(turn) {
+            ele=ele2;
+        } else {
+            ele=ele1;
+        }
+        
+        for(ll j=0;j<cnt;j++)
+            mtrx[pairs[i+j].first][pairs[i+j].second]=ele;
+        // mtrx[pairs[i+1].first][pairs[i+1].second]=ele;
+        turn=!turn;
+    }
+}
+
 int main() {
     ll t;
     cin>>t;
@@ -51,64 +105,65 @@ int main() {
             ele2+=2;
         }
 
+        bool gptTurn=true;
         for(ll i=2;i<n;i+=2) {
-            if(i%4==0) {
+            if(true) {
                 ll x=0,y=i;
                 ll count=n;
-                bool turn=true;
-                ll revele1=ele1,revele2=ele2;
-                map<ll,ll> seen;
+                vector<pair<ll,ll>> pairs1,pairs2;
+                bool change=false;
                 while(count--) {
-                    if(!seen[x] && !seen[y]) {
-                        mtrx[x][y]=ele1;
-                        seen[x]=1;
-                        seen[y]=1;
-                    } else {
-                        mtrx[x][y]=ele2;
-                    }
-                    if(count%2==0)
-                        turn=!turn;
-
-                    // if(x+1>=n || y+1>=n && turn) {
-                    //     ele1=revele2;
-                    //     ele2=revele1;
-                    // }
-
+                    if(!change) pairs1.push_back({x,y});
+                    if(change) pairs2.push_back({x,y});
+                    if(x+1>=n || y+1>=n)
+                        change=true;
                     x=(x+1)%n;
                     y=(y+1)%n;
-                    if(x<0)
-                        x+=n;
-                }   
-                ele1=revele1+2;
-                ele2=revele2+2;
-                continue;
-            }
+                }
 
+                // cout<<pairs1.size()<<endl;
+                if(isPower(i))
+                    fillMtrx3(ele1,ele2,mtrx,pairs1,i);
+                else if(i%16==0)
+                    fillMtrx3(ele1,ele2,mtrx,pairs1,16);
+                else if(i%8==0)
+                    fillMtrx3(ele1,ele2,mtrx,pairs1,8);
+                else if(i%4==0)
+                    fillMtrx3(ele1,ele2,mtrx,pairs1,4);
+                else {
+                    if(!gptTurn)
+                        fillMtrx1(ele1,ele2,mtrx,pairs1);
+                    else
+                        fillMtrx2(ele2,ele1,mtrx,pairs1);
+                }
+                
+                // if(gptTurn)
+                //     fillMtrx1(ele2,ele1,mtrx,pairs2);
+                // else
+                //     fillMtrx2(ele1,ele2,mtrx,pairs2);
+
+                ele1+=2;
+                ele2+=2;
+                gptTurn=!gptTurn;
+                continue;
+            } 
+            gptTurn=!gptTurn;
             ll x=0,y=i;
             ll count=n;
-            bool turn=true;
-            ll revele1=ele1,revele2=ele2;
+            vector<ll> seen(n,0);
             while(count--) {
-                if(turn) {
+                if(!seen[x] && !seen[y]) {
+                    seen[x]=1;
+                    seen[y]=1;
                     mtrx[x][y]=ele1;
                 } else {
                     mtrx[x][y]=ele2;
                 }
-                if(count%2==0)
-                    turn=!turn;
-
-                // if(x+1>=n || y+1>=n && turn) {
-                //     ele1=revele2;
-                //     ele2=revele1;
-                // }
-
                 x=(x+1)%n;
                 y=(y+1)%n;
-                if(x<0)
-                    x+=n;
-            }   
-            ele1=revele1+2;
-            ele2=revele2+2;
+            }
+            ele1+=2;
+            ele2+=2;
         }
 
         cout<<"Hooray"<<endl;
