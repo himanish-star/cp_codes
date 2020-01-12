@@ -122,19 +122,33 @@ int main() {
                 }
 
                 // cout<<pairs1.size()<<endl;
-                if(isPower(i))
+                if(isPower(i)) {
                     fillMtrx3(ele1,ele2,mtrx,pairs1,i);
-                else if(i%16==0)
-                    fillMtrx3(ele1,ele2,mtrx,pairs1,16);
-                else if(i%8==0)
-                    fillMtrx3(ele1,ele2,mtrx,pairs1,8);
-                else if(i%4==0)
-                    fillMtrx3(ele1,ele2,mtrx,pairs1,4);
+                    fillMtrx3(ele2,ele1,mtrx,pairs2,i);
+                }
+                else if(i%4==0) {
+                    ll num=n/2;
+                    // if(ceil(sqrt(n)!=floor(sqrt(n))))
+                    //     num=sqrt(n*2);
+                    // else
+                    //     num=sqrt(n);
+                    while(i%num!=0) {
+                        num/=2;
+                    }
+                    // if(num<4)
+                    //     num=4;
+                    fillMtrx3(ele1,ele2,mtrx,pairs1,num);
+                    fillMtrx3(ele2,ele1,mtrx,pairs2,num);
+                }
                 else {
-                    if(!gptTurn)
+                    if(!gptTurn) {
                         fillMtrx1(ele1,ele2,mtrx,pairs1);
-                    else
+                        fillMtrx1(ele2,ele1,mtrx,pairs2);
+                    }
+                    else {
                         fillMtrx2(ele2,ele1,mtrx,pairs1);
+                        fillMtrx2(ele1,ele2,mtrx,pairs2);
+                    }
                 }
                 
                 // if(gptTurn)
@@ -167,34 +181,34 @@ int main() {
         }
 
         cout<<"Hooray"<<endl;
-        map<ll,vector<pair<ll,ll>>> coords;
+        // map<ll,vector<pair<ll,ll>>> coords;
         for(int i=0;i<n;i++) {
             for(int j=0;j<n;j++) {
                 cout<<mtrx[i][j]<<" ";
-                coords[mtrx[i][j]].push_back({i+1,j+1});
+                // coords[mtrx[i][j]].push_back({i+1,j+1});
             }
             cout<<endl;
         }
 
-        for(auto it:coords) {
-            cout<<it.first<<"-->";
-            map<ll,ll> unqs;
-            for(auto coord:it.second) {
-                printf("(%lld,%lld)",coord.first,coord.second);
-                unqs[coord.first]++;
-                unqs[coord.second]++;
-            }
+        // for(auto it:coords) {
+        //     cout<<it.first<<"-->";
+        //     map<ll,ll> unqs;
+        //     for(auto coord:it.second) {
+        //         printf("(%lld,%lld)",coord.first,coord.second);
+        //         unqs[coord.first]++;
+        //         unqs[coord.second]++;
+        //     }
 
-            bool allCorrect=true;
-            for(auto unq:unqs) {
-                if(unq.second!=1) {
-                    allCorrect=false;
-                }
-            }
+        //     bool allCorrect=true;
+        //     for(auto unq:unqs) {
+        //         if(unq.second!=1) {
+        //             allCorrect=false;
+        //         }
+        //     }
 
-            cout<<" allcorrect --> "<<allCorrect;
-            cout<<endl;
-        }
+        //     cout<<" allcorrect --> "<<allCorrect;
+        //     cout<<endl;
+        // }
     }
     return 0;
 }
