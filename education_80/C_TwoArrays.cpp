@@ -32,11 +32,7 @@ int main() {
             ll ans = 0;
             
             for(int i=1;i<=n;i++) {
-                for(int j=1;j<=n;j++) {
-                    if(i<=j) {
-                        ans=(ans+dp[j-i+1][m-1])%mod;
-                    }
-                }
+                ans=(ans+dp[i][m-1]*(n-i+1))%mod;
             }
             dp[n][m]=ans%mod;
         }
