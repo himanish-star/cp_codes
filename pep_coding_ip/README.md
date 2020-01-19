@@ -224,7 +224,7 @@
 
 ## ✔️ Stacks & Queues
 #### Sat, Dec 21/2019
-- [ ] `Next Greater Element on right Next Greater`
+- [x] `Next Greater Element on right Next Greater` https://leetcode.com/problems/next-greater-element-ii/
 - [ ] `Next Greater Element 2`
 - [ ] `Daily Temperaturess`
 - [ ] `maximum difference between left and right`
