@@ -226,7 +226,7 @@
 #### Sat, Dec 21/2019
 - [ ] `Next Greater Element on right Next Greater` 
 - [x] `Next Greater Element 2` https://leetcode.com/problems/next-greater-element-ii/
-- [ ] `Daily Temperaturess`
+- [x] `Daily Temperaturess` https://leetcode.com/problems/daily-temperatures/
 - [ ] `maximum difference between left and right`
 - [ ] `Stock Span Problem`
 
