@@ -249,6 +249,6 @@
 - [ ] `Longest Unbalanced Subsequence`
 - [ ] `Adapters`
 - [ ] `Remove K digits From number`
-- [ ] `Car fleet`
+- [x] `Car fleet` https://leetcode.com/problems/car-fleet/
 - [ ] `First negative Integer in k sized window`
 - [ ] `Addition BINADD`
