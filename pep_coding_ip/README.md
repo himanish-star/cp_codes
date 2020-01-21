@@ -236,7 +236,7 @@
 - [ ] `Valid Parentheses`
 - [ ] `Length of longest valid substring`
 - [ ] `Count of duplicate Parentheses`
-- [x] `Decode String` https://leetcode.com/problems/decoded-string-at-index/
+- [ ] `Decode String`
 - [ ] `Minimum Number of bracket reversal`
 - [ ] `Minimum Add To make Parentheses Valid`
 - [ ] `Print Bracket Number`
@@ -252,3 +252,14 @@
 - [x] `Car fleet` https://leetcode.com/problems/car-fleet/
 - [ ] `First negative Integer in k sized window`
 - [ ] `Addition BINADD`
+
+#### Sat, Dec 28/2019
+- [ ] 1. Gas Station	Gas station
+- [ ] 2. Ternary Parser	Ternary operation
+- [ ] 3. Maximum sum of smallest and second smallest	max sum smallest and second smallest
+- [ ] 4. Min Stack	min stack
+- [ ] 5. K stacks in a single array	K stacks in a single array
+- [ ] 6. Validate Stack	Stack Validation
+- [ ] 7. K reverse in a queue	K reverse in a queue
+- [x] 8. `Decode String at a index`	https://leetcode.com/problems/decoded-string-at-index/
+- [x] 9. `largest Pair sum in unsorted array` https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
