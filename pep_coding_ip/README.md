@@ -254,7 +254,7 @@
 - [ ] `Addition BINADD`
 
 #### Sat, Dec 28/2019
-- [ ] 1. Gas Station	Gas station
+- [x] 1. `Gas Station` https://leetcode.com/problems/gas-station/
 - [ ] 2. Ternary Parser	Ternary operation
 - [ ] 3. Maximum sum of smallest and second smallest	max sum smallest and second smallest
 - [ ] 4. Min Stack	min stack
