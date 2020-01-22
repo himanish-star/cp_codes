@@ -273,6 +273,6 @@
 - [ ] 5. `Clone a linkedlist`
 - [ ] 6. `find modular node`
 - [ ] 7. `Remove duplicate from sorted`
-- [ ] 8. `Find the middle element`
+- [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
 - [ ] 9. `Nth element from end`
 - [ ] 10. `LRU Cache`
