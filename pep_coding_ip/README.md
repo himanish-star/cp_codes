@@ -238,7 +238,7 @@
 - [ ] `Count of duplicate Parentheses`
 - [ ] `Decode String`
 - [ ] `Minimum Number of bracket reversal`
-- [ ] `Minimum Add To make Parentheses Valid`
+- [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 - [ ] `Print Bracket Number`
 - [ ] `Score Of String`
 - [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
