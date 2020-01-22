@@ -276,3 +276,16 @@
 - [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
 - [ ] 9. `Nth element from end`
 - [ ] 10. `LRU Cache`
+
+## ✔️ Trees
+#### Sat, Jan 04/2020
+- [ ] 1. `Inorder Traversal`
+- [ ] 2. `Preorder Traversal`
+- [ ] 3. `Postorder Traversal`
+- [ ] 4. `Print ancestor of given tree`
+- [ ] 5. `Binary Tree Level Order`
+- [ ] 6. `Average of levels`
+- [ ] 7. `All Nodes at distance K`
+- [ ] 8. `Count bst in a given range`
+- [x] 9. `Binary search tree to greater sum` https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+- [ ] 10. `Binary Tree Cameras`
