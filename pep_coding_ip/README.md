@@ -232,7 +232,7 @@
 
 #### Sun, Dec 22/2019
 - [ ] `Largest Rectangular Area Histogram`
-- [ ] `maximu size binary matrix containing 1`
+- [ ] `maximum size binary matrix containing 1`
 - [ ] `Valid Parentheses`
 - [ ] `Length of longest valid substring`
 - [ ] `Count of duplicate Parentheses`
@@ -267,12 +267,12 @@
 ## ✔️ Linked List
 #### Sun, Dec 29/2019
 - [x] 1. `reverse LinkedList` https://leetcode.com/problems/reverse-linked-list/
-- [ ] 2. K reverse
-- [ ] 3. Floyd cycle
-- [ ] 4. Merge LinkedList
-- [ ] 5. Clone a linkedlist
-- [ ] 6. find modular node
-- [ ] 7. Remove duplicate from sorted
-- [ ] 8. Find the middle element
-- [ ] 9. Nth element from end
-- [ ] 10. LRU Cache
+- [ ] 2. `K reverse`
+- [x] 3. `Floyd cycle` https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+- [ ] 4. `Merge LinkedList`
+- [ ] 5. `Clone a linkedlist`
+- [ ] 6. `find modular node`
+- [ ] 7. `Remove duplicate from sorted`
+- [ ] 8. `Find the middle element`
+- [ ] 9. `Nth element from end`
+- [ ] 10. `LRU Cache`
