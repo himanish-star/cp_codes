@@ -270,7 +270,7 @@
 - [ ] 2. `K reverse`
 - [x] 3. `Floyd cycle` https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
 - [ ] 4. `Merge LinkedList`
-- [ ] 5. `Clone a linkedlist`
+- [x] 5. `Clone a linkedlist` https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
 - [ ] 6. `find modular node`
 - [ ] 7. `Remove duplicate from sorted`
 - [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
