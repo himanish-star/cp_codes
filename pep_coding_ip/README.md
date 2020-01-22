@@ -248,7 +248,7 @@
 #### Wed, Dec 25/2019
 - [ ] `Longest Unbalanced Subsequence`
 - [ ] `Adapters`
-- [ ] `Remove K digits From number`
+- [x] `Remove K digits From number` https://leetcode.com/problems/remove-k-digits/
 - [x] `Car fleet` https://leetcode.com/problems/car-fleet/
 - [ ] `First negative Integer in k sized window`
 - [ ] `Addition BINADD`
