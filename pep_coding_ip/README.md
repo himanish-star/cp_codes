@@ -241,7 +241,7 @@
 - [ ] `Minimum Add To make Parentheses Valid`
 - [ ] `Print Bracket Number`
 - [ ] `Score Of String`
-- [ ] `Asteroid Collision`
+- [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
 - [ ] `Backspace String Compare`
 - [ ] `Print Binary Number`
 
