@@ -263,3 +263,16 @@
 - [ ] 7. K reverse in a queue	K reverse in a queue
 - [x] 8. `Decode String at a index`	https://leetcode.com/problems/decoded-string-at-index/
 - [x] 9. `largest Pair sum in unsorted array` https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
+
+## ✔️ Linked List
+#### Sun, Dec 29/2019
+- [x] 1. `reverse LinkedList` https://leetcode.com/problems/reverse-linked-list/
+- [ ] 2. K reverse
+- [ ] 3. Floyd cycle
+- [ ] 4. Merge LinkedList
+- [ ] 5. Clone a linkedlist
+- [ ] 6. find modular node
+- [ ] 7. Remove duplicate from sorted
+- [ ] 8. Find the middle element
+- [ ] 9. Nth element from end
+- [ ] 10. LRU Cache
