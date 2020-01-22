@@ -240,7 +240,7 @@
 - [ ] `Minimum Number of bracket reversal`
 - [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 - [ ] `Print Bracket Number`
-- [ ] `Score Of String`
+- [x] `Score Of String` https://leetcode.com/problems/score-of-parentheses/
 - [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
 - [ ] `Backspace String Compare`
 - [ ] `Print Binary Number`
