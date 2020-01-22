@@ -236,7 +236,7 @@
 - [ ] `Valid Parentheses`
 - [ ] `Length of longest valid substring`
 - [ ] `Count of duplicate Parentheses`
-- [ ] `Decode String`
+- [x] `Decode String` https://leetcode.com/problems/decode-string/
 - [ ] `Minimum Number of bracket reversal`
 - [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 - [ ] `Print Bracket Number`
