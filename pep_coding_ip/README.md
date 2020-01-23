@@ -233,13 +233,13 @@
 #### Sun, Dec 22/2019
 - [ ] `Largest Rectangular Area Histogram`
 - [ ] `maximum size binary matrix containing 1`
-- [ ] `Valid Parentheses`
-- [ ] `Length of longest valid substring`
-- [ ] `Count of duplicate Parentheses`
+- [x] `Valid Parentheses` https://leetcode.com/problems/valid-parentheses/
+- [ ] `Length of longest valid substring` https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
+- [ ] `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
 - [x] `Decode String` https://leetcode.com/problems/decode-string/
-- [ ] `Minimum Number of bracket reversal`
+- [ ] `Minimum Number of bracket reversal` https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
 - [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
-- [ ] `Print Bracket Number`
+- [ ] `Print Bracket Number` https://www.geeksforgeeks.org/print-bracket-number/
 - [x] `Score Of String` https://leetcode.com/problems/score-of-parentheses/
 - [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
 - [ ] `Backspace String Compare`
