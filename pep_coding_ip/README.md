@@ -255,7 +255,7 @@
 
 #### Sat, Dec 28/2019
 - [x] 1. `Gas Station` https://leetcode.com/problems/gas-station/
-- [ ] 2. Ternary Parser	Ternary operation
+- [x] 2. `Ternary Parser` https://www.lintcode.com/problem/ternary-expression-parser/description
 - [ ] 3. Maximum sum of smallest and second smallest	max sum smallest and second smallest
 - [ ] 4. Min Stack	min stack
 - [ ] 5. K stacks in a single array	K stacks in a single array
