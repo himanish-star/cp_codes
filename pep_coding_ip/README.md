@@ -242,7 +242,7 @@
 - [x] `Print Bracket Number` https://www.geeksforgeeks.org/print-bracket-number/
 - [x] `Score Of String` https://leetcode.com/problems/score-of-parentheses/
 - [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
-- [ ] `Backspace String Compare`
+- [x] `Backspace String Compare` https://leetcode.com/problems/backspace-string-compare/
 - [ ] `Print Binary Number`
 
 #### Wed, Dec 25/2019
