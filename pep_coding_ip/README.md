@@ -243,7 +243,7 @@
 - [x] `Score Of String` https://leetcode.com/problems/score-of-parentheses/
 - [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
 - [x] `Backspace String Compare` https://leetcode.com/problems/backspace-string-compare/
-- [ ] `Print Binary Number`
+- [x] `Print Binary Number` https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/
 
 #### Wed, Dec 25/2019
 - [ ] `Longest Unbalanced Subsequence`
