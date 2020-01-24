@@ -230,6 +230,8 @@
 - [ ] 4. `maximum difference between left and right`
 - [ ] 5. `Stock Span Problem`
 - [x] 6. `Construct Expression Tree` https://practice.geeksforgeeks.org/problems/construct-an-expression-tree/1
+- [x] 7. `Evaluate: POSTFIX` https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0
+- [ ] 8. `Evaluate: PREFIX`
 
 #### Sun, Dec 22/2019
 - [ ] 1. `Largest Rectangular Area Histogram`
