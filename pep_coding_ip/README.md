@@ -237,7 +237,7 @@
 - [x] `Length of longest valid substring` https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
 - [ ] `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
 - [x] `Decode String` https://leetcode.com/problems/decode-string/
-- [ ] `Minimum Number of bracket reversal` https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
+- [x] `Minimum Number of bracket reversal` https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
 - [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 - [x] `Print Bracket Number` https://www.geeksforgeeks.org/print-bracket-number/
 - [x] `Score Of String` https://leetcode.com/problems/score-of-parentheses/
