@@ -224,34 +224,35 @@
 
 ## ✔️ Stacks & Queues
 #### Sat, Dec 21/2019
-- [ ] `Next Greater Element on right Next Greater` 
-- [x] `Next Greater Element 2` https://leetcode.com/problems/next-greater-element-ii/
-- [x] `Daily Temperaturess` https://leetcode.com/problems/daily-temperatures/
-- [ ] `maximum difference between left and right`
-- [ ] `Stock Span Problem`
+- [ ] 1. `Next Greater Element on right Next Greater` 
+- [x] 2. `Next Greater Element 2` https://leetcode.com/problems/next-greater-element-ii/
+- [x] 3. `Daily Temperaturess` https://leetcode.com/problems/daily-temperatures/
+- [ ] 4. `maximum difference between left and right`
+- [ ] 5. `Stock Span Problem`
+- [x] 6. `Construct Expression Tree` https://practice.geeksforgeeks.org/problems/construct-an-expression-tree/1
 
 #### Sun, Dec 22/2019
-- [ ] `Largest Rectangular Area Histogram`
-- [ ] `maximum size binary matrix containing 1`
-- [x] `Valid Parentheses` https://leetcode.com/problems/valid-parentheses/
-- [x] `Length of longest valid substring` https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
-- [x] `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
-- [x] `Decode String` https://leetcode.com/problems/decode-string/
-- [x] `Minimum Number of bracket reversal` https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
-- [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
-- [x] `Print Bracket Number` https://www.geeksforgeeks.org/print-bracket-number/
-- [x] `Score Of String` https://leetcode.com/problems/score-of-parentheses/
-- [x] `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
-- [x] `Backspace String Compare` https://leetcode.com/problems/backspace-string-compare/
-- [x] `Print Binary Number` https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/
+- [ ] 1. `Largest Rectangular Area Histogram`
+- [ ] 2. `maximum size binary matrix containing 1`
+- [x] 3. `Valid Parentheses` https://leetcode.com/problems/valid-parentheses/
+- [x] 4. `Length of longest valid substring` https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
+- [x] 5. `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
+- [x] 6. `Decode String` https://leetcode.com/problems/decode-string/
+- [x] 7. `Minimum Number of bracket reversal` https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
+- [x] 8. `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+- [x] 9. `Print Bracket Number` https://www.geeksforgeeks.org/print-bracket-number/
+- [x] 10. `Score Of String` https://leetcode.com/problems/score-of-parentheses/
+- [x] 11. `Asteroid Collision` https://leetcode.com/problems/asteroid-collision/
+- [x] 12. `Backspace String Compare` https://leetcode.com/problems/backspace-string-compare/
+- [x] 13. `Print Binary Number` https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/
 
 #### Wed, Dec 25/2019
-- [ ] `Longest Unbalanced Subsequence`
-- [ ] `Adapters`
-- [x] `Remove K digits From number` https://leetcode.com/problems/remove-k-digits/
-- [x] `Car fleet` https://leetcode.com/problems/car-fleet/
-- [ ] `First negative Integer in k sized window`
-- [ ] `Addition BINADD`
+- [ ] 1. `Longest Unbalanced Subsequence`
+- [ ] 2. `Adapters`
+- [x] 3. `Remove K digits From number` https://leetcode.com/problems/remove-k-digits/
+- [x] 4. `Car fleet` https://leetcode.com/problems/car-fleet/
+- [ ] 5. `First negative Integer in k sized window`
+- [ ] 6. `Addition BINADD`
 
 #### Sat, Dec 28/2019
 - [x] 1. `Gas Station` https://leetcode.com/problems/gas-station/
