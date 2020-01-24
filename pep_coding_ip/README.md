@@ -235,7 +235,7 @@
 - [ ] `maximum size binary matrix containing 1`
 - [x] `Valid Parentheses` https://leetcode.com/problems/valid-parentheses/
 - [x] `Length of longest valid substring` https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
-- [ ] `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
+- [x] `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
 - [x] `Decode String` https://leetcode.com/problems/decode-string/
 - [x] `Minimum Number of bracket reversal` https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
 - [x] `Minimum Add To make Parentheses Valid` https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
