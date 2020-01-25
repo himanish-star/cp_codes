@@ -232,6 +232,12 @@
 - [x] 6. `Construct Expression Tree` https://practice.geeksforgeeks.org/problems/construct-an-expression-tree/1
 - [x] 7. `Evaluate: POSTFIX` https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0
 - [ ] 8. `Evaluate: PREFIX`
+- [x] 9. `Convert: INFIX to POSTFIX` https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/
+- [ ] 10. `Convert: INFIX to PREFIX` https://www.geeksforgeeks.org/convert-infix-prefix-notation/
+- [ ] 11. `Convert: POSTFIX to INFIX`
+- [ ] 12. `Convert: POSTFIX to PREFIX`
+- [ ] 13. `Convert: PREFIX to INFIX`
+- [ ] 14. `Convert: PREFIX to POSTFIX`
 
 #### Sun, Dec 22/2019
 - [ ] 1. `Largest Rectangular Area Histogram`
