@@ -235,7 +235,7 @@
 - [x] 9. `Convert: INFIX to POSTFIX` https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/
 - [ ] 10. `Convert: INFIX to PREFIX` https://www.geeksforgeeks.org/convert-infix-prefix-notation/
 - [ ] 11. `Convert: POSTFIX to INFIX`
-- [ ] 12. `Convert: POSTFIX to PREFIX`
+- [x] 12. `Convert: POSTFIX to PREFIX` https://www.geeksforgeeks.org/postfix-prefix-conversion/
 - [ ] 13. `Convert: PREFIX to INFIX`
 - [ ] 14. `Convert: PREFIX to POSTFIX`
 
