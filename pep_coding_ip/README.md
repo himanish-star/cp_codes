@@ -237,7 +237,7 @@
 - [ ] 11. `Convert: POSTFIX to INFIX`
 - [x] 12. `Convert: POSTFIX to PREFIX` https://www.geeksforgeeks.org/postfix-prefix-conversion/
 - [x] 13. `Convert: PREFIX to INFIX` https://www.geeksforgeeks.org/prefix-infix-conversion/
-- [ ] 14. `Convert: PREFIX to POSTFIX`
+- [x] 14. `Convert: PREFIX to POSTFIX` https://www.geeksforgeeks.org/prefix-postfix-conversion/
 
 #### Sun, Dec 22/2019
 - [ ] 1. `Largest Rectangular Area Histogram`
