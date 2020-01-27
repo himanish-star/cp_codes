@@ -227,13 +227,13 @@
 - [x] 1. `Next Greater Element on right` https://www.geeksforgeeks.org/next-greater-element/
 - [x] 2. `Next Greater Element 2` https://leetcode.com/problems/next-greater-element-ii/
 - [x] 3. `Daily Temperaturess` https://leetcode.com/problems/daily-temperatures/
-- [ ] 4. `maximum difference between left and right`
-- [ ] 5. `Stock Span Problem`
+- [x] 4. `maximum difference between left and right` https://practice.geeksforgeeks.org/problems/maximum-difference/1
+- [ ] 5. `Stock Span Problem` https://practice.geeksforgeeks.org/problems/stock-span-problem/0
 - [x] 6. `Construct Expression Tree` https://practice.geeksforgeeks.org/problems/construct-an-expression-tree/1
 - [x] 7. `Evaluate: POSTFIX` https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0
 - [ ] 8. `Evaluate: PREFIX`
 - [x] 9. `Convert: INFIX to POSTFIX` https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/
-- [ ] 10. `Convert: INFIX to PREFIX` https://www.geeksforgeeks.org/convert-infix-prefix-notation/
+- [x] 10. `Convert: INFIX to PREFIX` https://www.geeksforgeeks.org/convert-infix-prefix-notation/
 - [ ] 11. `Convert: POSTFIX to INFIX`
 - [x] 12. `Convert: POSTFIX to PREFIX` https://www.geeksforgeeks.org/postfix-prefix-conversion/
 - [x] 13. `Convert: PREFIX to INFIX` https://www.geeksforgeeks.org/prefix-infix-conversion/
