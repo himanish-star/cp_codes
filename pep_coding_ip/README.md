@@ -240,8 +240,8 @@
 - [x] 14. `Convert: PREFIX to POSTFIX` https://www.geeksforgeeks.org/prefix-postfix-conversion/
 
 #### Sun, Dec 22/2019
-- [ ] 1. `Largest Rectangular Area Histogram`
-- [ ] 2. `maximum size binary matrix containing 1`
+- [ ] 1. `Largest Rectangular Area Histogram` https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+- [ ] 2. `maximum size binary matrix containing 1` https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
 - [x] 3. `Valid Parentheses` https://leetcode.com/problems/valid-parentheses/
 - [x] 4. `Length of longest valid substring` https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
 - [x] 5. `Count of duplicate Parentheses` https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
