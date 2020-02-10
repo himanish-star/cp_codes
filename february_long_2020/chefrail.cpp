@@ -43,21 +43,13 @@ int main() {
         ll ans=0;
         for(ll i=0;i<n;i++) {
             for(ll j=i+1;j<n;j++) {
-                ll hpt=abs(arr1[i]-arr1[j]);
-                if(((hpt*hpt)-(sqr1[i]+sqr1[j]))%2==0) {
-                    ll val=((hpt*hpt)-(sqr1[i]+sqr1[j]))/(2);
-                    ans+=um2[val];
-                }
+                ans+=um2[-1*arr1[i]*arr1[j]];
             }
         }
 
         for(ll i=0;i<m;i++) {
             for(ll j=i+1;j<m;j++) {
-                ll hpt=abs(arr2[i]-arr2[j]);
-                if(((hpt*hpt)-(sqr2[i]+sqr2[j]))%2==0) {
-                    ll val=((hpt*hpt)-(sqr2[i]+sqr2[j]))/(2);
-                    ans+=um1[val];
-                }
+                ans+=um1[-1*arr2[i]*arr2[j]];
             }
         }
         
