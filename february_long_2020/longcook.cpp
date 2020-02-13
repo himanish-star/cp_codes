@@ -43,6 +43,15 @@ int main() {
         cin>>m1>>t1;
         cin>>m2>>t2;
         ll c1;
+
+        ll add=0;
+
+        add-=(t1/400)*101;
+        add+=(t2/400)*101;
+
+        t1%=400;
+        t2%=400;
+
         if(m2>=2)
             c1=counts[t2];
         else
@@ -55,10 +64,10 @@ int main() {
             c2=counts[t1-1];
         ll val=c1-c2;
         
-        if(t1>t2 || (t1==t2 && m1>m2))
-            val=0;
+        // if(t1>t2 || (t1==t2 && m1>m2))
+            // val=0;
         
-        cout<<val<<endl;
+        cout<<val+add<<endl;
     }
     // cout<<counts[2020]<<" "<<counts[2009];
     return 0;
