@@ -259,8 +259,8 @@
 - [ ] 2. `Adapters`
 - [x] 3. `Remove K digits From number` https://leetcode.com/problems/remove-k-digits/
 - [x] 4. `Car fleet` https://leetcode.com/problems/car-fleet/
-- [ ] 5. `First negative Integer in k sized window`
-- [ ] 6. `Addition BINADD`
+- [ ] 5. `First negative Integer in k sized window` https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/
+- [ ] 6. `Addition BINADD` https://www.codechef.com/DEC19A/problems/BINADD
 
 #### Sat, Dec 28/2019
 - [x] 1. `Gas Station` https://leetcode.com/problems/gas-station/
