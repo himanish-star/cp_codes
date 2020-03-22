@@ -2,26 +2,6 @@
 
 using namespace std;
 
-int rec(vector<vector<int>> &stacks, int p, vector<int> &vis) {
-    if(p<=0)
-        return 0;
-
-    int ans=0;
-    for(int i=0;i<stacks.size();i++) {
-        if(vis[i])
-            continue;
-        for(int j=0;j<stacks[i].size();j++) {
-            if(p-(j+1)>=0) {
-                vis[i]=1;
-                ans=max(ans,stacks[i][j]+rec(stacks,p-(j+1),vis));
-                vis[i]=0;
-            }
-        }
-    }
-
-    return ans;
-}
-
 int main() {
     int t;
     cin>>t;
@@ -44,17 +24,27 @@ int main() {
             }   
         }
 
-        // for(int i=0;i<n;i++) {
-        //     for(int j=0;j<k;j++) {
-        //         cout<<stacks[i][j]<<" ";
-        //     }
-        //     cout<<endl;   
-        // }
 
-        vector<int> vis(n,0);
-        int ans = rec(stacks,p,vis);
+        vector<vector<int>> dp(n+1,vector<int> (p+1,0));
+        for(int i=1;i<=n;i++) {
+            for(int j=1;j<=p;j++) {
+                dp[i][j]=0;
+                for(int x=0;x<min(j,k);x++) {
+                    dp[i][j]=max(dp[i][j],stacks[i-1][x]+dp[i-1][j-(x+1)]);
+                    dp[i][j]=max(dp[i][j],dp[i-1][j]);
+                }
+            }
+        }
+
+        int ans=dp[n][p];
 
         printf("Case #%d: %d\n",id,ans);
+        // for(int i=0;i<=n;i++) {
+        //     for(int j=0;j<=p;j++) {
+        //         cout<<dp[i][j]<<" ";
+        //     }
+        //     cout<<endl;
+        // }
         id++;
     }
 }
