@@ -24,10 +24,10 @@ int main() {
         
         for(ll i=0;i<k;i++) {
             pair<ll,pair<ll,ll>> t=pq.top();
-            if(t.first==1)
+            if(t.first<=1)
                 break;
             pq.pop();
-            ll mid=(t.second.first+t.second.second)/2;
+            ll mid=(t.second.first+t.second.second)*0.5;
             pq.push({mid-t.second.first,{t.second.first,mid}});
             pq.push({t.second.second-mid,{mid,t.second.second}});
         }
