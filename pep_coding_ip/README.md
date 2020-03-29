@@ -266,7 +266,7 @@
 - [x] 1. `Gas Station` https://leetcode.com/problems/gas-station/
 - [x] 2. `Ternary Parser` https://www.lintcode.com/problem/ternary-expression-parser/description
 - [x] 3. `Maximum sum of smallest and second smallest` https://www.geeksforgeeks.org/maximum-sum-of-smallest-and-second-smallest-in-an-array/
-- [ ] 4. Min Stack	min stack
+- [x] 4. `Min Stack` https://leetcode.com/problems/min-stack/
 - [ ] 5. K stacks in a single array	K stacks in a single array
 - [x] 6. `Validate Stack` https://leetcode.com/problems/validate-stack-sequences/
 - [ ] 7. K reverse in a queue	K reverse in a queue
