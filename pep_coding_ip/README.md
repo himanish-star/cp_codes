@@ -278,7 +278,7 @@
 - [x] 1. `reverse LinkedList` https://leetcode.com/problems/reverse-linked-list/
 - [x] 2. `K reverse` https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
 - [x] 3. `Floyd cycle` https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
-- [ ] 4. `Merge LinkedList`
+- [x] 4. `Merge LinkedList` https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/
 - [x] 5. `Clone a linkedlist` https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
 - [ ] 6. `find modular node`
 - [ ] 7. `Remove duplicate from sorted`
