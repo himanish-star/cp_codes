@@ -283,7 +283,7 @@
 - [x] 6. `find modular node` https://www.geeksforgeeks.org/find-modular-node-linked-list/
 - [x] 7. `Remove duplicate from sorted` https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
 - [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
-- [ ] 9. `Nth element from end`
+- [x] 9. `Nth element from end` https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
 - [ ] 10. `LRU Cache`
 
 ## ✔️ Trees
