@@ -269,7 +269,7 @@
 - [x] 4. `Min Stack` https://leetcode.com/problems/min-stack/
 - [ ] 5. K stacks in a single array	K stacks in a single array
 - [x] 6. `Validate Stack` https://leetcode.com/problems/validate-stack-sequences/
-- [ ] 7. K reverse in a queue	K reverse in a queue
+- [x] 7. `K reverse in a queue`	https://www.geeksforgeeks.org/reversing-first-k-elements-queue/
 - [x] 8. `Decode String at a index`	https://leetcode.com/problems/decoded-string-at-index/
 - [x] 9. `largest Pair sum in unsorted array` https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
 
