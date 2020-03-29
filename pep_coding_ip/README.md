@@ -276,7 +276,7 @@
 ## ✔️ Linked List
 #### Sun, Dec 29/2019
 - [x] 1. `reverse LinkedList` https://leetcode.com/problems/reverse-linked-list/
-- [ ] 2. `K reverse`
+- [x] 2. `K reverse` https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
 - [x] 3. `Floyd cycle` https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
 - [ ] 4. `Merge LinkedList`
 - [x] 5. `Clone a linkedlist` https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
