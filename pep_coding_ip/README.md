@@ -280,7 +280,7 @@
 - [x] 3. `Floyd cycle` https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
 - [x] 4. `Merge LinkedList` https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/
 - [x] 5. `Clone a linkedlist` https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
-- [ ] 6. `find modular node`
+- [x] 6. `find modular node` https://www.geeksforgeeks.org/find-modular-node-linked-list/
 - [ ] 7. `Remove duplicate from sorted`
 - [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
 - [ ] 9. `Nth element from end`
