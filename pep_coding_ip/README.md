@@ -290,9 +290,9 @@
 #### Sat, Jan 04/2020
 - [x] 1. `Inorder Traversal` https://leetcode.com/problems/binary-tree-inorder-traversal/
 - [x] 2. `Preorder Traversal` https://leetcode.com/problems/binary-tree-preorder-traversal/
-- [ ] 3. `Postorder Traversal`
-- [ ] 4. `Print ancestor of given tree`
-- [ ] 5. `Binary Tree Level Order`
+- [x] 3. `Postorder Traversal` https://leetcode.com/problems/binary-tree-postorder-traversal/
+- [ ] 4. `Print ancestor of given tree` https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
+- [ ] 5. `Binary Tree Level Order` https://leetcode.com/problems/binary-tree-level-order-traversal/
 - [ ] 6. `Average of levels`
 - [ ] 7. `All Nodes at distance K`
 - [ ] 8. `Count bst in a given range`
