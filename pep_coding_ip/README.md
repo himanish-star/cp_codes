@@ -295,7 +295,7 @@ todo: http://shm-developer.herokuapp.com/demo_display/cptodo
 - [x] 3. `Postorder Traversal` https://leetcode.com/problems/binary-tree-postorder-traversal/
 - [x] 4. `Print ancestor of given tree` https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
 - [x] 5. `Binary Tree Level Order` https://leetcode.com/problems/binary-tree-level-order-traversal/
-- [ ] 6. `Average of levels` https://leetcode.com/problems/average-of-levels-in-binary-tree/
+- [x] 6. `Average of levels` https://leetcode.com/problems/average-of-levels-in-binary-tree/
 - [ ] 7. `All Nodes at distance K` https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 - [ ] 8. `Count bst in a given range` https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/
 - [x] 9. `Binary search tree to greater sum` https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
