@@ -289,7 +289,7 @@
 ## ✔️ Trees
 #### Sat, Jan 04/2020
 - [x] 1. `Inorder Traversal` https://leetcode.com/problems/binary-tree-inorder-traversal/
-- [ ] 2. `Preorder Traversal`
+- [x] 2. `Preorder Traversal` https://leetcode.com/problems/binary-tree-preorder-traversal/
 - [ ] 3. `Postorder Traversal`
 - [ ] 4. `Print ancestor of given tree`
 - [ ] 5. `Binary Tree Level Order`
