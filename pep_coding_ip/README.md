@@ -284,11 +284,11 @@
 - [x] 7. `Remove duplicate from sorted` https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
 - [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
 - [x] 9. `Nth element from end` https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-- [ ] 10. `LRU Cache`
+- [ ] 10. `LRU Cache` https://leetcode.com/problems/lru-cache/
 
 ## ✔️ Trees
 #### Sat, Jan 04/2020
-- [ ] 1. `Inorder Traversal`
+- [x] 1. `Inorder Traversal` https://leetcode.com/problems/binary-tree-inorder-traversal/
 - [ ] 2. `Preorder Traversal`
 - [ ] 3. `Postorder Traversal`
 - [ ] 4. `Print ancestor of given tree`
