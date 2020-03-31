@@ -1,5 +1,5 @@
 todo: http://shm-developer.herokuapp.com/demo_display/cptodo
-
+g-sheet: https://docs.google.com/spreadsheets/d/1PeZ8-4r14uqxqR6UJY-Uww7KaWQ8H7M7bgBQylVTImc/edit#gid=0
 ## ✔️ Dynamic Programming
 #### Sat, Sep 14/2019
 - [x] 1. `Climb stairs` https://leetcode.com/problems/climbing-stairs/
