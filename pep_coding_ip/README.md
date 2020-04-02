@@ -298,7 +298,7 @@ links:
 - [x] 5. `Binary Tree Level Order` https://leetcode.com/problems/binary-tree-level-order-traversal/
 - [x] 6. `Average of levels` https://leetcode.com/problems/average-of-levels-in-binary-tree/
 - [x] 7. `All Nodes at distance K` https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
-- [ ] 8. `Count bst in a given range` https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/
+- [x] 8. `Count bst in a given range` https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/
 - [x] 9. `Binary search tree to greater sum` https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 - [ ] 10. `Binary Tree Cameras` https://leetcode.com/problems/binary-tree-cameras/
 
