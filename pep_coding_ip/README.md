@@ -301,3 +301,26 @@ links:
 - [ ] 8. `Count bst in a given range` https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/
 - [x] 9. `Binary search tree to greater sum` https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 - [ ] 10. `Binary Tree Cameras` https://leetcode.com/problems/binary-tree-cameras/
+
+#### Sun, Jan 05/2020
+- [ ] 1. `max path sum`
+- [ ] 2. `Binary tree to bst`
+- [ ] 3. `right view`
+- [ ] 4. `Left view`
+- [ ] 5. `vertical order`
+- [ ] 6. `Top view`
+- [ ] 7. `Bottom view`
+- [ ] 8. `diagonal traversal`
+- [ ] 9. `leftmost and rightmost`
+- [ ] 10. `kth smallest`
+- [ ] 11. `Binary Tree tilt`
+- [ ] 12. `no siblings`
+- [ ] 13. `House robber`
+
+#### Sat, Jan 11/2020
+- [ ] 1. `Boundary traversal`
+- [ ] 2. `LCA in BST`
+- [ ] 3. `lowest common ancestor`
+- [ ] 4. `sqrt decomposition`
+- [ ] 5. `Delete in BST`
+- [ ] 6. `from in and pre`
