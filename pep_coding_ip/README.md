@@ -303,7 +303,7 @@ links:
 - [ ] 10. `Binary Tree Cameras` https://leetcode.com/problems/binary-tree-cameras/
 
 #### Sun, Jan 05/2020
-- [ ] 1. `max path sum`
+- [x] 1. `max path sum` https://leetcode.com/problems/binary-tree-maximum-path-sum/
 - [ ] 2. `Binary tree to bst`
 - [ ] 3. `right view`
 - [ ] 4. `Left view`
