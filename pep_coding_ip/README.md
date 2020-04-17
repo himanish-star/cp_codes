@@ -305,7 +305,7 @@ links:
 #### Sun, Jan 05/2020
 - [x] 1. `max path sum` https://leetcode.com/problems/binary-tree-maximum-path-sum/
 - [x] 2. `Binary tree to bst` https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1
-- [ ] 3. `right view`
+- [x] 3. `right view` https://leetcode.com/problems/binary-tree-right-side-view/
 - [ ] 4. `Left view`
 - [ ] 5. `vertical order`
 - [ ] 6. `Top view`
