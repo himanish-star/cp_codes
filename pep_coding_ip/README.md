@@ -315,7 +315,7 @@ links:
 - [ ] 10. `kth smallest`
 - [x] 11. `Binary Tree tilt` https://leetcode.com/problems/binary-tree-tilt/
 - [ ] 12. `no siblings`
-- [ ] 13. `House robber`
+- [x] 13. `House robber` https://leetcode.com/problems/house-robber-iii/
 
 #### Sat, Jan 11/2020
 - [ ] 1. `Boundary traversal`
