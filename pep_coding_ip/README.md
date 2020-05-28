@@ -306,7 +306,7 @@ links:
 - [x] 1. `max path sum` https://leetcode.com/problems/binary-tree-maximum-path-sum/
 - [x] 2. `Binary tree to bst` https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1
 - [x] 3. `right view` https://leetcode.com/problems/binary-tree-right-side-view/
-- [ ] 4. `Left view`
+- [x] 4. `Left view` https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
 - [ ] 5. `vertical order`
 - [ ] 6. `Top view`
 - [ ] 7. `Bottom view`
