@@ -309,8 +309,8 @@ links:
 - [x] 4. `Left view` https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
 - [x] 5. `🌟 vertical order` https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 - [ ] 6. `Top view`
-- [ ] 7. `Bottom view`
-- [ ] 8. `diagonal traversal`
+- [ ] 7. `Bottom view` https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+- [ ] 8. `diagonal traversal` https://leetcode.com/problems/diagonal-traverse/
 - [ ] 9. `leftmost and rightmost`
 - [ ] 10. `kth smallest`
 - [x] 11. `Binary Tree tilt` https://leetcode.com/problems/binary-tree-tilt/
@@ -318,7 +318,7 @@ links:
 - [x] 13. `House robber` https://leetcode.com/problems/house-robber-iii/
 
 #### Sat, Jan 11/2020
-- [ ] 1. `Boundary traversal`
+- [x] 1. `🌟 Boundary traversal` https://www.lintcode.com/problem/boundary-of-binary-tree/description
 - [ ] 2. `LCA in BST`
 - [ ] 3. `lowest common ancestor`
 - [ ] 4. `sqrt decomposition`
