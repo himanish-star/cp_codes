@@ -307,7 +307,7 @@ links:
 - [x] 2. `Binary tree to bst` https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1
 - [x] 3. `right view` https://leetcode.com/problems/binary-tree-right-side-view/
 - [x] 4. `Left view` https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
-- [x] 5. `vertical order` https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+- [x] 5. `🌟 vertical order` https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 - [ ] 6. `Top view`
 - [ ] 7. `Bottom view`
 - [ ] 8. `diagonal traversal`
