@@ -319,7 +319,7 @@ links:
 
 #### Sat, Jan 11/2020
 - [x] 1. `🌟 Boundary traversal` https://www.lintcode.com/problem/boundary-of-binary-tree/description
-- [ ] 2. `LCA in BST`
+- [x] 2. `LCA in BST` https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 - [ ] 3. `lowest common ancestor`
 - [ ] 4. `sqrt decomposition`
 - [ ] 5. `Delete in BST`
