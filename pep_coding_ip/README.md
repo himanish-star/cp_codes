@@ -321,6 +321,6 @@ links:
 - [x] 1. `🌟 Boundary traversal` https://www.lintcode.com/problem/boundary-of-binary-tree/description
 - [x] 2. `LCA in BST` https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 - [x] 3. `lowest common ancestor` https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
-- [ ] 4. `sqrt decomposition`
+- [x] 4. `🌟 sqrt decomposition` https://www.spoj.com/problems/RMQSQ/
 - [ ] 5. `Delete in BST`
 - [ ] 6. `from in and pre`
