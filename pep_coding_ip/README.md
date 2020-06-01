@@ -323,4 +323,4 @@ links:
 - [x] 3. `lowest common ancestor` https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
 - [x] 4. `🌟 sqrt decomposition` https://www.spoj.com/problems/RMQSQ/
 - [x] 5. `Delete in BST` https://leetcode.com/problems/delete-node-in-a-bst/
-- [ ] 6. `from in and pre`
+- [x] 6. `from in and pre` https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
