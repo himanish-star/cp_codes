@@ -11,7 +11,7 @@ links:
 - [x] 6. `Target Sum Subset` https://practice.geeksforgeeks.org/problems/perfect-sum-problem/0
 - [x] 7. `Coin Change Combination` https://www.hackerrank.com/challenges/coin-change/problem
 
-#### Sun, Sep 15/2019
+#### Sun, Sep 15/2019 🇮🇳
 - [x] 1. `0-1 KnapSack` https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0
 - [x] 2. `Unbounded KnapSack` https://www.hackerrank.com/challenges/unbounded-knapsack/problem
 - [x] 3. `Russian Doll Envelopes` https://leetcode.com/problems/russian-doll-envelopes/
@@ -52,7 +52,7 @@ links:
 - Questions which don't have a link currently
  - [ ] `Include Exclude (II)`
 
-#### Sat, Sep 28/2019
+#### Sat, Sep 28/2019 🇮🇳
 - [x] 1. `Can I Win, (N, Target)` https://leetcode.com/problems/can-i-win/
 - [x] 2. `Making words out of a dictionary` https://leetcode.com/problems/word-break/
 - [x] 3. `Minimum squares needed for a target sum` https://leetcode.com/problems/perfect-squares/
@@ -123,7 +123,7 @@ links:
 - [x] 4. `Kosaraju` https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
 - [x] 5. `Bridges & Articulation` https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
 
-#### Sat, Oct 26/2019
+#### Sat, Oct 26/2019 🇮🇳
 - [x] 1. `Connected Components - count and queries`
 - [x] 2. `Number of islands` https://leetcode.com/problems/number-of-islands/
 - [x] 3. `Number of islands ii` https://www.lintcode.com/problem/number-of-islands-ii/description
@@ -153,7 +153,7 @@ links:
 - [ ] 8. `Minimize Malware Spread ii` https://leetcode.com/problems/minimize-malware-spread-ii/
 - [x] 9. `Word Ladder` https://leetcode.com/problems/word-ladder/
 
-#### Sun, Nov 03/2019
+#### Sun, Nov 03/2019 🇮🇳
 - [x] 1. `Find the Town Judge` https://leetcode.com/problems/find-the-town-judge
 - [x] 2. `Friend Circles` https://leetcode.com/problems/friend-circles
 - [x] 3. `Number of Distinct Islands` https://www.lintcode.com/problem/number-of-distinct-islands/
@@ -182,7 +182,7 @@ links:
 - [x] 4. `Trapping rain water` https://leetcode.com/problems/trapping-rain-water-ii
 
 ## ✔️ Arrays & Strings
-#### Mon, Nov 11/2019
+#### Mon, Nov 11/2019 🇮🇳
 - [x] 1. `Product of array except self` https://leetcode.com/problems/product-of-array-except-self
 - [x] 2. `Rotate to right by k` https://leetcode.com/problems/rotate-array
 - [x] 3. `Max chunks to make it sorted` https://leetcode.com/problems/max-chunks-to-make-sorted-ii
@@ -192,7 +192,7 @@ links:
 - [x] 7. `Max range queries` https://www.codechef.com/COOK103A/problems/MAXREMOV
 - [x] 8. `Range addition` https://leetcode.com/problems/range-addition https://leetcode.com/problems/range-addition-ii
 
-#### Tue, Nov 12/2019
+#### Tue, Nov 12/2019 🇮🇳
 - [x] 1. `Remove duplicates from sorted array` https://leetcode.com/problems/remove-duplicates-from-sorted-array
 - [x] 2. `Maximum subarray` https://leetcode.com/problems/maximum-subarray
 - [x] 3. `K- concatetaion` https://www.codechef.com/JAN18/problems/KCON
@@ -203,7 +203,7 @@ links:
 - [x] 8. `Pour Water` https://www.lintcode.com/problem/pour-water/description
 - [x] 9. `Shortest Palindrome` https://leetcode.com/problems/shortest-palindrome
 
-#### Sat, Nov 16/2019
+#### Sat, Nov 16/2019 🇮🇳
 - [x] 1. `K concatenation` https://www.codechef.com/JAN18/problems/KCON
 - [x] 2. `sum of even numbers after queries` https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 - [x] 3. `Container with most water` https://leetcode.com/problems/container-with-most-water/ 
@@ -265,7 +265,7 @@ links:
 - [x] 5. `First negative Integer in k sized window` https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/
 - [x] 6. `Addition BINADD` https://www.codechef.com/DEC19A/problems/BINADD
 
-#### Sat, Dec 28/2019
+#### Sat, Dec 28/2019 🇮🇳
 - [x] 1. `Gas Station` https://leetcode.com/problems/gas-station/
 - [x] 2. `Ternary Parser` https://www.lintcode.com/problem/ternary-expression-parser/description
 - [x] 3. `Maximum sum of smallest and second smallest` https://www.geeksforgeeks.org/maximum-sum-of-smallest-and-second-smallest-in-an-array/
@@ -317,7 +317,7 @@ links:
 - [ ] 12. `no siblings`
 - [x] 13. `House robber` https://leetcode.com/problems/house-robber-iii/
 
-#### Sat, Jan 11/2020
+#### Sat, Jan 11/2020 🇮🇳
 - [x] 1. `🌟 Boundary traversal` https://www.lintcode.com/problem/boundary-of-binary-tree/description
 - [x] 2. `LCA in BST` https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 - [x] 3. `lowest common ancestor` https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
