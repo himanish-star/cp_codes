@@ -324,3 +324,16 @@ links:
 - [x] 4. `🌟 sqrt decomposition` https://www.spoj.com/problems/RMQSQ/
 - [x] 5. `Delete in BST` https://leetcode.com/problems/delete-node-in-a-bst/
 - [x] 6. `from in and pre` https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+#### Sun, Jan 12/2020 
+- [ ] 1. `from in and post`
+- [ ] 2. `construct bst`
+- [ ] 3. `Inorder and level order`
+- [ ] 4. `serialize and deserialize`
+- [ ] 5. `distribute coins`
+- [ ] 6. `duplicate subtree`
+- [ ] 7. `AVL`
+- [ ] 8. `image multiplication`
+
+## ✔️ Miscellaneous
+- [x] 1. `🌟 Find the missing number in sorted array - (modified binary search)` https://www.geeksforgeeks.org/find-the-missing-number-in-a-sorted-array/
