@@ -337,3 +337,4 @@ links:
 
 ## ✔️ Miscellaneous
 - [x] 1. `🌟 Find the missing number in sorted array - (modified binary search)` https://www.geeksforgeeks.org/find-the-missing-number-in-a-sorted-array/
+- [x] 2. `Smallest Distinct Window` https://practice.geeksforgeeks.org/problems/smallest-distant-window/0
