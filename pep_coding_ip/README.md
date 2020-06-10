@@ -340,3 +340,4 @@ links:
 - [x] 2. `Smallest Distinct Window` https://practice.geeksforgeeks.org/problems/smallest-distant-window/0
 - [ ] 3. `🌟 minimum window substring - hard` https://leetcode.com/problems/minimum-window-substring/
 - [x] 4. `Diagonal Traverse Matrix` https://leetcode.com/problems/diagonal-traverse/
+- [x] 5. `🌟 Fraction to Recurring Decimal` https://leetcode.com/problems/fraction-to-recurring-decimal/
