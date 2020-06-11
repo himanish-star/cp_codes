@@ -341,3 +341,5 @@ links:
 - [ ] 3. `🌟 minimum window substring - hard` https://leetcode.com/problems/minimum-window-substring/
 - [x] 4. `Diagonal Traverse Matrix` https://leetcode.com/problems/diagonal-traverse/
 - [x] 5. `🌟 Fraction to Recurring Decimal` https://leetcode.com/problems/fraction-to-recurring-decimal/
+- [x] 6. `Max sum subarray after removing at most one element` https://practice.geeksforgeeks.org/problems/max-sum-subarray-by-removing-at-most-one-element/1
+- [ ] 7. `Next Bigger Number using one swap` https://www.geeksforgeeks.org/next-higher-number-using-atmost-one-swap-operation/
