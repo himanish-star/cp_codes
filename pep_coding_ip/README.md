@@ -277,7 +277,7 @@ links:
 - [x] 9. `largest Pair sum in unsorted array` https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
 
 ## ✔️ Linked List
-#### Sun, Dec 29/2019
+#### Sun, Dec 29/2019 🇮🇳
 - [x] 1. `reverse LinkedList` https://leetcode.com/problems/reverse-linked-list/
 - [x] 2. `K reverse` https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
 - [x] 3. `Floyd cycle` https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
@@ -287,7 +287,7 @@ links:
 - [x] 7. `Remove duplicate from sorted` https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
 - [x] 8. `Find the middle element` https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
 - [x] 9. `Nth element from end` https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-- [ ] 10. `LRU Cache` https://leetcode.com/problems/lru-cache/
+- [x] 10. `LRU Cache` https://leetcode.com/problems/lru-cache/
 
 ## ✔️ Trees
 #### Sat, Jan 04/2020
