@@ -343,3 +343,5 @@ links:
 - [x] 5. `🌟 Fraction to Recurring Decimal` https://leetcode.com/problems/fraction-to-recurring-decimal/
 - [x] 6. `Max sum subarray after removing at most one element` https://practice.geeksforgeeks.org/problems/max-sum-subarray-by-removing-at-most-one-element/1
 - [ ] 7. `Next Bigger Number using one swap` https://www.geeksforgeeks.org/next-higher-number-using-atmost-one-swap-operation/
+- [ ] 8. `Max sum rectangle` https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/
+- [ ] 9. `🌟 Flattening a linked list` https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
